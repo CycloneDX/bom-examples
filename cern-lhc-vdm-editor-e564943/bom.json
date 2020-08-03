@@ -1,0 +1,1552 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:699b6458-60da-4f52-b1b3-34915dc01eb6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2020-08-03T01:28:52.765Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "Node.js module",
+        "version": "2.0.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:npm/lhc-vdm-editor@0.0.1",
+      "name": "lhc-vdm-editor",
+      "version": "0.0.1",
+      "description": "A code and file editor for VdM scans.",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lhc-vdm-editor@0.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/CERN/lhc-vdm-editor#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/CERN/lhc-vdm-editor/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/CERN/lhc-vdm-editor.git"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/puppeteer@1.19.0",
+      "name": "puppeteer",
+      "version": "1.19.0",
+      "description": "A high-level API to control headless Chrome over the DevTools Protocol",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d92e84eb2829a2a70409a6a00db068a6848e3c3bf4a4066f4db9c181463eea1ab4fd70c50ce2c430d94717f48a265cdc699f5c9222a3283bae79623714dfd65f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:npm/puppeteer@1.19.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/GoogleChrome/puppeteer#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/GoogleChrome/puppeteer/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/GoogleChrome/puppeteer.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/debug@4.1.1",
+      "name": "debug",
+      "version": "4.1.1",
+      "description": "small debugging utility",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a58008cde468f09e8a3c4689d1558e8793f391bc3f45eb6ecde84633b411457e617b87cf1f1dab74a301db9e9e8490a45fe5d1426d7a7992ea2cd4bc45265767"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/debug@4.1.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/visionmedia/debug#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/visionmedia/debug/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/visionmedia/debug.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/ms@2.1.2",
+      "name": "ms",
+      "version": "2.1.2",
+      "description": "Tiny millisecond conversion utility",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d09d1f357b443f493382a8eb3ccd183872ae6009"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ms@2.1.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/zeit/ms#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/zeit/ms/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/zeit/ms.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/extract-zip@1.6.7",
+      "name": "extract-zip",
+      "version": "1.6.7",
+      "description": "unzip a zip file into a directory using 100% javascript",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "a840b4b8af6403264c8db57f4f1a74333ef81fe9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/extract-zip@1.6.7",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/maxogden/extract-zip#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/maxogden/extract-zip/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/maxogden/extract-zip.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/concat-stream@1.6.2",
+      "name": "concat-stream",
+      "version": "1.6.2",
+      "description": "writable stream that concatenates strings or binary data and calls a callback with the result",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "dbb1c18212718e266d224dd872f9ffe246c993fd6e66e2457ee3c49ece8b684be9bc6d5fd214de6bc96296ba2eca8f6655cd8659d70467c38ba0699200396b0b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/concat-stream@1.6.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/maxogden/concat-stream#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "http://github.com/maxogden/concat-stream/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/maxogden/concat-stream.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/buffer-from@1.1.1",
+      "name": "buffer-from",
+      "version": "1.1.1",
+      "description": "A [ponyfill](https://ponyfill.com) for `Buffer.from`, uses native implementation if available.",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3107171146c22ad128edb86a12ceb9eb41f27785daa2f6653bf93d57786355417fcf05bb28155d48ae2022dfdbcf04bd31b479aa86fe1798eeb19b1bd1840ad8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/buffer-from@1.1.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/LinusU/buffer-from#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/LinusU/buffer-from/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/LinusU/buffer-from.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/inherits@2.0.4",
+      "name": "inherits",
+      "version": "2.0.4",
+      "description": "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0fa2c64f932917c3433a0ded55363aae37416b7c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/inherits@2.0.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/inherits#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/inherits/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/inherits.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/readable-stream@2.3.6",
+      "name": "readable-stream",
+      "version": "2.3.6",
+      "description": "Streams3, a user-land copy of the stream library from Node.js",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b50b4a03d588021045dfe54b02c7b232a65e0635b4007268c4eb58a92519349c5ab84ae62db566d855b5cbe27f600f5d52b002dfd2137a39595a1548c1ac242b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/readable-stream@2.3.6",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/nodejs/readable-stream#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/nodejs/readable-stream/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/nodejs/readable-stream.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/core-util-is@1.0.2",
+      "name": "core-util-is",
+      "version": "1.0.2",
+      "description": "The `util.is*` functions introduced in Node v0.12.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b5fd54220aa2bc5ab57aab7140c940754503c1a7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/core-util-is@1.0.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/core-util-is#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/core-util-is/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/core-util-is.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/isarray@1.0.0",
+      "name": "isarray",
+      "version": "1.0.0",
+      "description": "Array#isArray for older browsers",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "bb935d48582cba168c06834957a54a3e07124f11"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/isarray@1.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/juliangruber/isarray"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/juliangruber/isarray/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/juliangruber/isarray.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/process-nextick-args@2.0.1",
+      "name": "process-nextick-args",
+      "version": "2.0.1",
+      "description": "process.nextTick but always with args",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "de8b943a9421b60adb39ad7b27bfaec4e4e92136166863fbfc0868477f80fbfd5ef6c92bcde9468bf757cc4632bdbc6e6c417a5a7db2a6c7132a22891459f56a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/process-nextick-args@2.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/calvinmetcalf/process-nextick-args"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/calvinmetcalf/process-nextick-args/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/calvinmetcalf/process-nextick-args.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/safe-buffer@5.1.2",
+      "name": "safe-buffer",
+      "version": "5.1.2",
+      "description": "Safer Node.js Buffer API",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "19dd94641243917958ec66c9c5fb04f3f9ef2a45045351b7f1cd6c88de903fa6bd3d3f4c98707c1a7a6c71298c252a05f0b388aedf2e77fc0fb688f2b381bafa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/safe-buffer@5.1.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/feross/safe-buffer"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/feross/safe-buffer/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/feross/safe-buffer.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/string_decoder@1.1.1",
+      "name": "string_decoder",
+      "version": "1.1.1",
+      "description": "The string_decoder module from Node core",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9ff4a19ef0e2e851db6d57ef8aba3e5a88e2173bfeb3c30f30705ccd578f7d4a4324bc282d3d21b759786300426e2f29240bde104767907c8fc933ff9b345fc2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/string_decoder@1.1.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/nodejs/string_decoder"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/nodejs/string_decoder/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/nodejs/string_decoder.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/util-deprecate@1.0.2",
+      "name": "util-deprecate",
+      "version": "1.0.2",
+      "description": "The Node.js `util.deprecate()` function with browser support",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "450d4dc9fa70de732762fbd2d4a28981419a0ccf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/util-deprecate@1.0.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/TooTallNate/util-deprecate"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/TooTallNate/util-deprecate/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/TooTallNate/util-deprecate.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/typedarray@0.0.6",
+      "name": "typedarray",
+      "version": "0.0.6",
+      "description": "TypedArray polyfill for old browsers",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "867ac74e3864187b1d3d47d996a78ec5c8830777"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/typedarray@0.0.6",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/substack/typedarray"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/typedarray/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/substack/typedarray.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/debug@2.6.9",
+      "name": "debug",
+      "version": "2.6.9",
+      "description": "small debugging utility",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6c2ec496b7496899cf6c03fed44a2d62fa99b1bdde725e708ba05f8ba0494d470da30a7a72fb298348d7ce74532838e6fc4ec076014155e00f54c35c286b0730"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/debug@2.6.9",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/visionmedia/debug#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/visionmedia/debug/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/visionmedia/debug.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/ms@2.0.0",
+      "name": "ms",
+      "version": "2.0.0",
+      "description": "Tiny milisecond conversion utility",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5608aeadfc00be6c2901df5f9861788de0d597c8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ms@2.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/zeit/ms#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/zeit/ms/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/zeit/ms.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/mkdirp@0.5.1",
+      "name": "mkdirp",
+      "version": "0.5.1",
+      "description": "Recursively mkdir, like `mkdir -p`",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "30057438eac6cf7f8c4767f38648d6697d75c903"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mkdirp@0.5.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/substack/node-mkdirp#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/node-mkdirp/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/substack/node-mkdirp.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/minimist@0.0.8",
+      "name": "minimist",
+      "version": "0.0.8",
+      "description": "parse argument options",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "857fcabfc3397d2625b8228262e86aa7a011b05d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/minimist@0.0.8",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/substack/minimist"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/minimist/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/substack/minimist.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/yauzl@2.4.1",
+      "name": "yauzl",
+      "version": "2.4.1",
+      "description": "yet another unzip library for node",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9528f442dab1b2284e58b4379bb194e22e0c4005"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/yauzl@2.4.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/thejoshwolfe/yauzl"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/thejoshwolfe/yauzl/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/thejoshwolfe/yauzl.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/fd-slicer@1.0.1",
+      "name": "fd-slicer",
+      "version": "1.0.1",
+      "description": "safely create multiple ReadStream or WriteStream objects from the same file descriptor",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8b5bcbd9ec327c5041bf9ab023fd6750f1177e65"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/fd-slicer@1.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/andrewrk/node-fd-slicer#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/andrewrk/node-fd-slicer/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/andrewrk/node-fd-slicer.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/pend@1.2.0",
+      "name": "pend",
+      "version": "1.2.0",
+      "description": "dead-simple optimistic async helper",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7a57eb550a6783f9115331fcf4663d5c8e007a50"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/pend@1.2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/andrewrk/node-pend#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/andrewrk/node-pend/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/andrewrk/node-pend.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/https-proxy-agent@2.2.4",
+      "name": "https-proxy-agent",
+      "version": "2.2.4",
+      "description": "An HTTP(s) proxy `http.Agent` implementation for HTTPS",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3a6bdfa10e7758b8ed03d1de60ff5136b58c273cc0cf524669216bd678a38343d547525a0ffc5b26ad667442089711a95e9f5e49efced8b814f432664cf77412"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/https-proxy-agent@2.2.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/TooTallNate/node-https-proxy-agent#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/TooTallNate/node-https-proxy-agent/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/TooTallNate/node-https-proxy-agent.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/agent-base@4.3.0",
+      "name": "agent-base",
+      "version": "4.3.0",
+      "description": "Turn a function into an `http.Agent` instance",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b1a95c1a78a75749cfaf0a46367e154d705bd523ae5d0062a9bacd5e87a2cc9b07aec2fa11114cd8d7b725448159113a69e34923644e3ff5841080d48837b772"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/agent-base@4.3.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/TooTallNate/node-agent-base#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/TooTallNate/node-agent-base/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/TooTallNate/node-agent-base.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/es6-promisify@5.0.0",
+      "name": "es6-promisify",
+      "version": "5.0.0",
+      "description": "Converts callback-based functions to ES6 Promises",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5109d62f3e56ea967c4b63505aef08291c8a5203"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/es6-promisify@5.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/digitaldesignlabs/es6-promisify#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "http://github.com/digitaldesignlabs/es6-promisify/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/digitaldesignlabs/es6-promisify.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/es6-promise@4.2.8",
+      "name": "es6-promise",
+      "version": "4.2.8",
+      "description": "A lightweight library that provides tools for organizing asynchronous code",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1c90c6c7975ac5e22fc5d071bc6d9c6fd838b44bf0224de2f3e9e15f4c86ad89995336e4760f106c37af85e0c1f20774fffb8f8f8735110b9af10f8c5624f4ff"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/es6-promise@4.2.8",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/stefanpenner/es6-promise"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/stefanpenner/es6-promise/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/stefanpenner/es6-promise.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/debug@3.2.6",
+      "name": "debug",
+      "version": "3.2.6",
+      "description": "small debugging utility",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e83d17de16d8a7efb7717edbe5fb10135eee629b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/debug@3.2.6",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/visionmedia/debug#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/visionmedia/debug/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/visionmedia/debug.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/mime@2.4.4",
+      "name": "mime",
+      "version": "2.4.4",
+      "description": "A comprehensive library for mime-type mapping",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2d1c66370ce22cf4fcdbccfee1890dce5a02142d98338c2b07df64f8057965b1327c63567c6f123b51545cb98b0c14a8f3d36b259e0321678b8f2d421c684c18"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mime@2.4.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/broofa/node-mime#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/broofa/node-mime/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/broofa/node-mime.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/progress@2.0.3",
+      "name": "progress",
+      "version": "2.0.3",
+      "description": "Flexible ascii progress bar",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ecf887b4b965e4b767288330d74d08fbcc495d1e605b6430598913ea226f6b46d78ad64a6bf5ccad26dd9a0debd979da89dcfd42e99dd153da32b66517d57db0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/progress@2.0.3",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/visionmedia/node-progress#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/visionmedia/node-progress/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/visionmedia/node-progress.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/proxy-from-env@1.0.0",
+      "name": "proxy-from-env",
+      "version": "1.0.0",
+      "description": "Offers getProxyForUrl to get the proxy URL for a URL, respecting the *_PROXY (e.g. HTTP_PROXY) and NO_PROXY environment variables.",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "33c50398f70ea7eb96d21f7b817630a55791c7ee"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/proxy-from-env@1.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/Rob--W/proxy-from-env#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Rob--W/proxy-from-env/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/Rob--W/proxy-from-env.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/rimraf@2.7.1",
+      "name": "rimraf",
+      "version": "2.7.1",
+      "description": "A deep deletion module for node (like `rm -rf`)",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b968db68a20add3d4e495a6dcd7ecd97a3ef437a801ad284b5546346e6b38df2f7071e5e238d3d5594aa80d0fee143679b32d574f8fd16a14934fa81645bdee3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/rimraf@2.7.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/rimraf#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/rimraf/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/rimraf.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/glob@7.1.4",
+      "name": "glob",
+      "version": "7.1.4",
+      "description": "a little globber",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/glob@7.1.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/node-glob#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/node-glob/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/node-glob.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/fs.realpath@1.0.0",
+      "name": "fs.realpath",
+      "version": "1.0.0",
+      "description": "Use node's fs.realpath, but fall back to the JS implementation if the native one fails",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "1504ad2523158caa40db4a2787cb01411994ea4f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/fs.realpath@1.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/fs.realpath#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/fs.realpath/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/isaacs/fs.realpath.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/inflight@1.0.6",
+      "name": "inflight",
+      "version": "1.0.6",
+      "description": "Add callbacks to requests in flight to avoid async duplication",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "49bd6331d7d02d0c09bc910a1075ba8165b56df9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/inflight@1.0.6",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/inflight"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/inflight/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/npm/inflight.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/once@1.4.0",
+      "name": "once",
+      "version": "1.4.0",
+      "description": "Run a function exactly one time",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "583b1aa775961d4b113ac17d9c50baef9dd76bd1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/once@1.4.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/once#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/once/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/once.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/wrappy@1.0.2",
+      "name": "wrappy",
+      "version": "1.0.2",
+      "description": "Callback wrapping utility",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/wrappy@1.0.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/npm/wrappy"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/npm/wrappy/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/npm/wrappy.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/minimatch@3.0.4",
+      "name": "minimatch",
+      "version": "3.0.4",
+      "description": "a glob matcher in javascript",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5166e286457f03306064be5497e8dbb0c3d32083"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/minimatch@3.0.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/isaacs/minimatch#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/isaacs/minimatch/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/isaacs/minimatch.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/brace-expansion@1.1.11",
+      "name": "brace-expansion",
+      "version": "1.1.11",
+      "description": "Brace expansion as known from sh/bash",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/brace-expansion@1.1.11",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/juliangruber/brace-expansion"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/juliangruber/brace-expansion/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/juliangruber/brace-expansion.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/balanced-match@1.0.0",
+      "name": "balanced-match",
+      "version": "1.0.0",
+      "description": "Match balanced character pairs, like \"{\" and \"}\"",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "89b4d199ab2bee49de164ea02b89ce462d71b767"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/balanced-match@1.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/juliangruber/balanced-match"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/juliangruber/balanced-match/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/juliangruber/balanced-match.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/concat-map@0.0.1",
+      "name": "concat-map",
+      "version": "0.0.1",
+      "description": "concatenative mapdashery",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d8a96bd77fd68df7793a73036a3ba0d5405d477b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/concat-map@0.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/substack/node-concat-map#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/substack/node-concat-map/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git://github.com/substack/node-concat-map.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/path-is-absolute@1.0.1",
+      "name": "path-is-absolute",
+      "version": "1.0.1",
+      "description": "Node.js 0.12 path.isAbsolute() ponyfill",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/path-is-absolute@1.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/sindresorhus/path-is-absolute#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/sindresorhus/path-is-absolute/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/sindresorhus/path-is-absolute.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/ws@6.2.1",
+      "name": "ws",
+      "version": "6.2.1",
+      "description": "Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "188c805c2d9c07b2e3be980cb7d10a4b695daabd0c4eb3916a57a23a7a3a4f0799eabdd32ada054166b2ff63dc789dd1b816ac387cd7367e4baf0d57d1b123a8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ws@6.2.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/websockets/ws"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/websockets/ws/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/websockets/ws.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/async-limiter@1.0.1",
+      "name": "async-limiter",
+      "version": "1.0.1",
+      "description": "asynchronous function queue with adjustable concurrency",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "72c3a558601c44525a23a9be17658a76730aaf81e1761155064d07fd06c914c0abfae3b6930a21c1740fc70ffd382c69d39af9821541152ca2a22c71de07e435"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/async-limiter@1.0.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/strml/async-limiter#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/strml/async-limiter/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/strml/async-limiter.git"
+        }
+      ]
+    }
+  ]
+}

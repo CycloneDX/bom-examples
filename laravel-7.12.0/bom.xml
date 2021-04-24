@@ -11,31 +11,19 @@
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/asm89/stack-cors@1.3.0</purl>
+            <purl>pkg:composer/asm89/stack-cors@1.3.0</purl>
         </component>
         <component type="library">
             <group>brick</group>
             <name>math</name>
-            <version>0.8.15</version>
+            <version>0.9.2</version>
             <description>Arbitrary-precision arithmetic library</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/brick/math@0.8.15</purl>
-        </component>
-        <component type="library">
-            <group>dnoegel</group>
-            <name>php-xdg-base-dir</name>
-            <version>0.1.1</version>
-            <description>implementation of xdg base directory specification for php</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/dnoegel/php-xdg-base-dir@0.1.1</purl>
+            <purl>pkg:composer/brick/math@0.9.2</purl>
         </component>
         <component type="library">
             <group>doctrine</group>
@@ -47,7 +35,7 @@
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/doctrine/inflector@2.0.3</purl>
+            <purl>pkg:composer/doctrine/inflector@2.0.3</purl>
         </component>
         <component type="library">
             <group>doctrine</group>
@@ -59,43 +47,43 @@
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/doctrine/lexer@1.2.1</purl>
+            <purl>pkg:composer/doctrine/lexer@1.2.1</purl>
         </component>
         <component type="library">
             <group>dragonmantank</group>
             <name>cron-expression</name>
-            <version>2.3.0</version>
+            <version>2.3.1</version>
             <description>CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/dragonmantank/cron-expression@2.3.0</purl>
+            <purl>pkg:composer/dragonmantank/cron-expression@2.3.1</purl>
         </component>
         <component type="library">
             <group>egulias</group>
             <name>email-validator</name>
-            <version>2.1.18</version>
+            <version>2.1.25</version>
             <description>A library for validating emails against several RFCs</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/egulias/email-validator@2.1.18</purl>
+            <purl>pkg:composer/egulias/email-validator@2.1.25</purl>
         </component>
         <component type="library">
             <group>fideloper</group>
             <name>proxy</name>
-            <version>4.4.0</version>
+            <version>4.4.1</version>
             <description>Set trusted proxies for Laravel</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/fideloper/proxy@4.4.0</purl>
+            <purl>pkg:composer/fideloper/proxy@4.4.1</purl>
         </component>
         <component type="library">
             <group>fruitcake</group>
@@ -107,7 +95,7 @@
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/fruitcake/laravel-cors@1.0.6</purl>
+            <purl>pkg:composer/fruitcake/laravel-cors@1.0.6</purl>
         </component>
         <component type="library">
             <group>guzzlehttp</group>
@@ -119,139 +107,151 @@
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/guzzlehttp/guzzle@6.5.5</purl>
+            <purl>pkg:composer/guzzlehttp/guzzle@6.5.5</purl>
         </component>
         <component type="library">
             <group>guzzlehttp</group>
             <name>promises</name>
-            <version>1.3.1</version>
+            <version>1.4.1</version>
             <description>Guzzle promises library</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/guzzlehttp/promises@1.3.1</purl>
+            <purl>pkg:composer/guzzlehttp/promises@1.4.1</purl>
         </component>
         <component type="library">
             <group>guzzlehttp</group>
             <name>psr7</name>
-            <version>1.6.1</version>
+            <version>1.8.1</version>
             <description>PSR-7 message implementation that also provides common utility methods</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/guzzlehttp/psr7@1.6.1</purl>
+            <purl>pkg:composer/guzzlehttp/psr7@1.8.1</purl>
         </component>
         <component type="library">
             <group>laravel</group>
             <name>framework</name>
-            <version>7.22.4</version>
+            <version>7.30.4</version>
             <description>The Laravel Framework.</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/laravel/framework@7.22.4</purl>
+            <purl>pkg:composer/laravel/framework@7.30.4</purl>
+        </component>
+        <component type="library">
+            <group>laravel</group>
+            <name>laravel</name>
+            <version>7.12.0</version>
+            <description>The Laravel Framework.</description>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:composer/laravel/laravel@7.12.0</purl>
         </component>
         <component type="library">
             <group>laravel</group>
             <name>tinker</name>
-            <version>2.4.1</version>
+            <version>2.6.1</version>
             <description>Powerful REPL for the Laravel framework.</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/laravel/tinker@2.4.1</purl>
+            <purl>pkg:composer/laravel/tinker@2.6.1</purl>
         </component>
         <component type="library">
             <group>league</group>
             <name>commonmark</name>
-            <version>1.5.3</version>
+            <version>1.5.8</version>
             <description>Highly-extensible PHP Markdown parser which fully supports the CommonMark spec and Github-Flavored Markdown (GFM)</description>
             <licenses>
                 <license>
                     <id>BSD-3-Clause</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/league/commonmark@1.5.3</purl>
+            <purl>pkg:composer/league/commonmark@1.5.8</purl>
         </component>
         <component type="library">
             <group>league</group>
             <name>flysystem</name>
-            <version>1.0.70</version>
+            <version>1.1.3</version>
             <description>Filesystem abstraction: Many filesystems, one API.</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/league/flysystem@1.0.70</purl>
+            <purl>pkg:composer/league/flysystem@1.1.3</purl>
+        </component>
+        <component type="library">
+            <group>league</group>
+            <name>mime-type-detection</name>
+            <version>1.7.0</version>
+            <description>Mime-type detection for Flysystem</description>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:composer/league/mime-type-detection@1.7.0</purl>
         </component>
         <component type="library">
             <group>monolog</group>
             <name>monolog</name>
-            <version>2.1.1</version>
+            <version>2.2.0</version>
             <description>Sends your logs to files, sockets, inboxes, databases and various web services</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/monolog/monolog@2.1.1</purl>
+            <purl>pkg:composer/monolog/monolog@2.2.0</purl>
         </component>
         <component type="library">
             <group>nesbot</group>
             <name>carbon</name>
-            <version>2.37.0</version>
+            <version>2.46.0</version>
             <description>An API extension for DateTime that supports 281 different languages.</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/nesbot/carbon@2.37.0</purl>
+            <purl>pkg:composer/nesbot/carbon@2.46.0</purl>
         </component>
         <component type="library">
             <group>nikic</group>
             <name>php-parser</name>
-            <version>4.7.0</version>
+            <version>4.10.4</version>
             <description>A PHP parser written in PHP</description>
             <licenses>
                 <license>
                     <id>BSD-3-Clause</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/nikic/php-parser@4.7.0</purl>
+            <purl>pkg:composer/nikic/php-parser@4.10.4</purl>
         </component>
         <component type="library">
             <group>opis</group>
             <name>closure</name>
-            <version>3.5.5</version>
+            <version>3.6.2</version>
             <description>A library that can be used to serialize closures (anonymous functions) and arbitrary objects.</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/opis/closure@3.5.5</purl>
-        </component>
-        <component type="library">
-            <group>paragonie</group>
-            <name>random_compat</name>
-            <version>9.99.99</version>
-            <description>PHP 5.x polyfill for random_bytes() and random_int() from PHP 7</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/paragonie/random_compat@9.99.99</purl>
+            <purl>pkg:composer/opis/closure@3.6.2</purl>
         </component>
         <component type="library">
             <group>phpoption</group>
@@ -263,19 +263,19 @@
                     <id>Apache-2.0</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/phpoption/phpoption@1.7.5</purl>
+            <purl>pkg:composer/phpoption/phpoption@1.7.5</purl>
         </component>
         <component type="library">
             <group>psr</group>
             <name>container</name>
-            <version>1.0.0</version>
+            <version>1.1.1</version>
             <description>Common Container Interface (PHP FIG PSR-11)</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/psr/container@1.0.0</purl>
+            <purl>pkg:composer/psr/container@1.1.1</purl>
         </component>
         <component type="library">
             <group>psr</group>
@@ -287,7 +287,7 @@
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/psr/event-dispatcher@1.0.0</purl>
+            <purl>pkg:composer/psr/event-dispatcher@1.0.0</purl>
         </component>
         <component type="library">
             <group>psr</group>
@@ -299,7 +299,7 @@
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/psr/http-message@1.0.1</purl>
+            <purl>pkg:composer/psr/http-message@1.0.1</purl>
         </component>
         <component type="library">
             <group>psr</group>
@@ -311,7 +311,7 @@
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/psr/log@1.1.3</purl>
+            <purl>pkg:composer/psr/log@1.1.3</purl>
         </component>
         <component type="library">
             <group>psr</group>
@@ -323,19 +323,19 @@
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/psr/simple-cache@1.0.1</purl>
+            <purl>pkg:composer/psr/simple-cache@1.0.1</purl>
         </component>
         <component type="library">
             <group>psy</group>
             <name>psysh</name>
-            <version>0.10.4</version>
+            <version>0.10.8</version>
             <description>An interactive shell for modern PHP.</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/psy/psysh@0.10.4</purl>
+            <purl>pkg:composer/psy/psysh@0.10.8</purl>
         </component>
         <component type="library">
             <group>ralouphie</group>
@@ -347,367 +347,367 @@
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/ralouphie/getallheaders@3.0.3</purl>
+            <purl>pkg:composer/ralouphie/getallheaders@3.0.3</purl>
         </component>
         <component type="library">
             <group>ramsey</group>
             <name>collection</name>
-            <version>1.0.1</version>
+            <version>1.1.3</version>
             <description>A PHP 7.2+ library for representing and manipulating collections.</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/ramsey/collection@1.0.1</purl>
+            <purl>pkg:composer/ramsey/collection@1.1.3</purl>
         </component>
         <component type="library">
             <group>ramsey</group>
             <name>uuid</name>
-            <version>4.1.0</version>
+            <version>4.1.1</version>
             <description>A PHP library for generating and working with universally unique identifiers (UUIDs).</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/ramsey/uuid@4.1.0</purl>
+            <purl>pkg:composer/ramsey/uuid@4.1.1</purl>
         </component>
         <component type="library">
             <group>swiftmailer</group>
             <name>swiftmailer</name>
-            <version>6.2.3</version>
+            <version>6.2.7</version>
             <description>Swiftmailer, free feature-rich PHP mailer</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/swiftmailer/swiftmailer@6.2.3</purl>
+            <purl>pkg:composer/swiftmailer/swiftmailer@6.2.7</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>console</name>
-            <version>5.1.3</version>
-            <description>Symfony Console Component</description>
+            <version>5.2.6</version>
+            <description>Eases the creation of beautiful and testable command line interfaces</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/console@5.1.3</purl>
+            <purl>pkg:composer/symfony/console@5.2.6</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>css-selector</name>
-            <version>5.1.3</version>
-            <description>Symfony CssSelector Component</description>
+            <version>5.2.4</version>
+            <description>Converts CSS selectors to XPath expressions</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/css-selector@5.1.3</purl>
+            <purl>pkg:composer/symfony/css-selector@5.2.4</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>deprecation-contracts</name>
-            <version>2.1.3</version>
+            <version>2.4.0</version>
             <description>A generic function and convention to trigger deprecation notices</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/deprecation-contracts@2.1.3</purl>
+            <purl>pkg:composer/symfony/deprecation-contracts@2.4.0</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>error-handler</name>
-            <version>5.1.3</version>
-            <description>Symfony ErrorHandler Component</description>
+            <version>5.2.6</version>
+            <description>Provides tools to manage errors and ease debugging PHP code</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/error-handler@5.1.3</purl>
+            <purl>pkg:composer/symfony/error-handler@5.2.6</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>event-dispatcher</name>
-            <version>5.1.3</version>
-            <description>Symfony EventDispatcher Component</description>
+            <version>5.2.4</version>
+            <description>Provides tools that allow your application components to communicate with each other by dispatching events and listening to them</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/event-dispatcher@5.1.3</purl>
+            <purl>pkg:composer/symfony/event-dispatcher@5.2.4</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>event-dispatcher-contracts</name>
-            <version>2.1.3</version>
+            <version>2.4.0</version>
             <description>Generic abstractions related to dispatching event</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/event-dispatcher-contracts@2.1.3</purl>
+            <purl>pkg:composer/symfony/event-dispatcher-contracts@2.4.0</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>finder</name>
-            <version>5.1.3</version>
-            <description>Symfony Finder Component</description>
+            <version>5.2.4</version>
+            <description>Finds files and directories via an intuitive fluent interface</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/finder@5.1.3</purl>
+            <purl>pkg:composer/symfony/finder@5.2.4</purl>
+        </component>
+        <component type="library">
+            <group>symfony</group>
+            <name>http-client-contracts</name>
+            <version>2.4.0</version>
+            <description>Generic abstractions related to HTTP clients</description>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:composer/symfony/http-client-contracts@2.4.0</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>http-foundation</name>
-            <version>5.1.3</version>
-            <description>Symfony HttpFoundation Component</description>
+            <version>5.2.4</version>
+            <description>Defines an object-oriented layer for the HTTP specification</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/http-foundation@5.1.3</purl>
+            <purl>pkg:composer/symfony/http-foundation@5.2.4</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>http-kernel</name>
-            <version>5.1.3</version>
-            <description>Symfony HttpKernel Component</description>
+            <version>5.2.6</version>
+            <description>Provides a structured process for converting a Request into a Response</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/http-kernel@5.1.3</purl>
+            <purl>pkg:composer/symfony/http-kernel@5.2.6</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>mime</name>
-            <version>5.1.3</version>
-            <description>A library to manipulate MIME messages</description>
+            <version>5.2.6</version>
+            <description>Allows manipulating MIME messages</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/mime@5.1.3</purl>
+            <purl>pkg:composer/symfony/mime@5.2.6</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>polyfill-ctype</name>
-            <version>1.18.0</version>
+            <version>1.22.1</version>
             <description>Symfony polyfill for ctype functions</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/polyfill-ctype@1.18.0</purl>
+            <purl>pkg:composer/symfony/polyfill-ctype@1.22.1</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>polyfill-iconv</name>
-            <version>1.18.0</version>
+            <version>1.22.1</version>
             <description>Symfony polyfill for the Iconv extension</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/polyfill-iconv@1.18.0</purl>
+            <purl>pkg:composer/symfony/polyfill-iconv@1.22.1</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>polyfill-intl-grapheme</name>
-            <version>1.18.0</version>
+            <version>1.22.1</version>
             <description>Symfony polyfill for intl's grapheme_* functions</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/polyfill-intl-grapheme@1.18.0</purl>
+            <purl>pkg:composer/symfony/polyfill-intl-grapheme@1.22.1</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>polyfill-intl-idn</name>
-            <version>1.18.0</version>
+            <version>1.22.1</version>
             <description>Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/polyfill-intl-idn@1.18.0</purl>
+            <purl>pkg:composer/symfony/polyfill-intl-idn@1.22.1</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>polyfill-intl-normalizer</name>
-            <version>1.18.0</version>
+            <version>1.22.1</version>
             <description>Symfony polyfill for intl's Normalizer class and related functions</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/polyfill-intl-normalizer@1.18.0</purl>
+            <purl>pkg:composer/symfony/polyfill-intl-normalizer@1.22.1</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>polyfill-mbstring</name>
-            <version>1.18.0</version>
+            <version>1.22.1</version>
             <description>Symfony polyfill for the Mbstring extension</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/polyfill-mbstring@1.18.0</purl>
-        </component>
-        <component type="library">
-            <group>symfony</group>
-            <name>polyfill-php70</name>
-            <version>1.18.0</version>
-            <description>Symfony polyfill backporting some PHP 7.0+ features to lower PHP versions</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/symfony/polyfill-php70@1.18.0</purl>
+            <purl>pkg:composer/symfony/polyfill-mbstring@1.22.1</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>polyfill-php72</name>
-            <version>1.18.0</version>
+            <version>1.22.1</version>
             <description>Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/polyfill-php72@1.18.0</purl>
+            <purl>pkg:composer/symfony/polyfill-php72@1.22.1</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>polyfill-php73</name>
-            <version>1.18.0</version>
+            <version>1.22.1</version>
             <description>Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/polyfill-php73@1.18.0</purl>
+            <purl>pkg:composer/symfony/polyfill-php73@1.22.1</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>polyfill-php80</name>
-            <version>1.18.0</version>
+            <version>1.22.1</version>
             <description>Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/polyfill-php80@1.18.0</purl>
+            <purl>pkg:composer/symfony/polyfill-php80@1.22.1</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>process</name>
-            <version>5.1.3</version>
-            <description>Symfony Process Component</description>
+            <version>5.2.4</version>
+            <description>Executes commands in sub-processes</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/process@5.1.3</purl>
+            <purl>pkg:composer/symfony/process@5.2.4</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>routing</name>
-            <version>5.1.3</version>
-            <description>Symfony Routing Component</description>
+            <version>5.2.6</version>
+            <description>Maps an HTTP request to a set of configuration variables</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/routing@5.1.3</purl>
+            <purl>pkg:composer/symfony/routing@5.2.6</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>service-contracts</name>
-            <version>2.1.3</version>
+            <version>2.4.0</version>
             <description>Generic abstractions related to writing services</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/service-contracts@2.1.3</purl>
+            <purl>pkg:composer/symfony/service-contracts@2.4.0</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>string</name>
-            <version>5.1.3</version>
-            <description>Symfony String component</description>
+            <version>5.2.6</version>
+            <description>Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/string@5.1.3</purl>
+            <purl>pkg:composer/symfony/string@5.2.6</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>translation</name>
-            <version>5.1.3</version>
-            <description>Symfony Translation Component</description>
+            <version>5.2.6</version>
+            <description>Provides tools to internationalize your application</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/translation@5.1.3</purl>
+            <purl>pkg:composer/symfony/translation@5.2.6</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>translation-contracts</name>
-            <version>2.1.3</version>
+            <version>2.4.0</version>
             <description>Generic abstractions related to translation</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/translation-contracts@2.1.3</purl>
+            <purl>pkg:composer/symfony/translation-contracts@2.4.0</purl>
         </component>
         <component type="library">
             <group>symfony</group>
             <name>var-dumper</name>
-            <version>5.1.3</version>
-            <description>Symfony mechanism for exploring and dumping PHP variables</description>
+            <version>5.2.6</version>
+            <description>Provides mechanisms for walking through any arbitrary PHP variable</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/symfony/var-dumper@5.1.3</purl>
+            <purl>pkg:composer/symfony/var-dumper@5.2.6</purl>
         </component>
         <component type="library">
             <group>tijsverkoyen</group>
@@ -719,487 +719,31 @@
                     <id>BSD-3-Clause</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/tijsverkoyen/css-to-inline-styles@2.2.3</purl>
+            <purl>pkg:composer/tijsverkoyen/css-to-inline-styles@2.2.3</purl>
         </component>
         <component type="library">
             <group>vlucas</group>
             <name>phpdotenv</name>
-            <version>4.1.8</version>
+            <version>4.2.0</version>
             <description>Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.</description>
             <licenses>
                 <license>
                     <id>BSD-3-Clause</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/vlucas/phpdotenv@4.1.8</purl>
+            <purl>pkg:composer/vlucas/phpdotenv@4.2.0</purl>
         </component>
         <component type="library">
             <group>voku</group>
             <name>portable-ascii</name>
-            <version>1.5.3</version>
+            <version>1.5.6</version>
             <description>Portable ASCII library - performance optimized (ascii) string functions for php.</description>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg://composer/voku/portable-ascii@1.5.3</purl>
-        </component>
-        <component type="library">
-            <group>cyclonedx</group>
-            <name>cyclonedx-php-composer</name>
-            <version>1.0.0</version>
-            <description>Creates CycloneDX Software Bill-of-Materials (SBOM) from PHP Composer projects</description>
-            <licenses>
-                <license>
-                    <id>Apache-2.0</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/cyclonedx/cyclonedx-php-composer@1.0.0</purl>
-        </component>
-        <component type="library">
-            <group>doctrine</group>
-            <name>instantiator</name>
-            <version>1.3.1</version>
-            <description>A small, lightweight utility to instantiate objects in PHP without invoking their constructors</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/doctrine/instantiator@1.3.1</purl>
-        </component>
-        <component type="library">
-            <group>facade</group>
-            <name>flare-client-php</name>
-            <version>1.3.4</version>
-            <description>Send PHP errors to Flare</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/facade/flare-client-php@1.3.4</purl>
-        </component>
-        <component type="library">
-            <group>facade</group>
-            <name>ignition</name>
-            <version>2.3.5</version>
-            <description>A beautiful error page for Laravel applications.</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/facade/ignition@2.3.5</purl>
-        </component>
-        <component type="library">
-            <group>facade</group>
-            <name>ignition-contracts</name>
-            <version>1.0.1</version>
-            <description>Solution contracts for Ignition</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/facade/ignition-contracts@1.0.1</purl>
-        </component>
-        <component type="library">
-            <group>filp</group>
-            <name>whoops</name>
-            <version>2.7.3</version>
-            <description>php error handling for cool kids</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/filp/whoops@2.7.3</purl>
-        </component>
-        <component type="library">
-            <group>fzaninotto</group>
-            <name>faker</name>
-            <version>1.9.1</version>
-            <description>Faker is a PHP library that generates fake data for you.</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/fzaninotto/faker@1.9.1</purl>
-        </component>
-        <component type="library">
-            <group>hamcrest</group>
-            <name>hamcrest-php</name>
-            <version>2.0.1</version>
-            <description>This is the PHP port of Hamcrest Matchers</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/hamcrest/hamcrest-php@2.0.1</purl>
-        </component>
-        <component type="library">
-            <group>mockery</group>
-            <name>mockery</name>
-            <version>1.4.1</version>
-            <description>Mockery is a simple yet flexible PHP mock object framework</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/mockery/mockery@1.4.1</purl>
-        </component>
-        <component type="library">
-            <group>myclabs</group>
-            <name>deep-copy</name>
-            <version>1.10.1</version>
-            <description>Create deep copies (clones) of your objects</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/myclabs/deep-copy@1.10.1</purl>
-        </component>
-        <component type="library">
-            <group>nunomaduro</group>
-            <name>collision</name>
-            <version>4.2.0</version>
-            <description>Cli error handling for console/command-line PHP applications.</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/nunomaduro/collision@4.2.0</purl>
-        </component>
-        <component type="library">
-            <group>phar-io</group>
-            <name>manifest</name>
-            <version>1.0.3</version>
-            <description>Component for reading phar.io manifest information from a PHP Archive (PHAR)</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/phar-io/manifest@1.0.3</purl>
-        </component>
-        <component type="library">
-            <group>phar-io</group>
-            <name>version</name>
-            <version>2.0.1</version>
-            <description>Library for handling version information and constraints</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/phar-io/version@2.0.1</purl>
-        </component>
-        <component type="library">
-            <group>phpdocumentor</group>
-            <name>reflection-common</name>
-            <version>2.2.0</version>
-            <description>Common reflection classes used by phpdocumentor to reflect the code structure</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/phpdocumentor/reflection-common@2.2.0</purl>
-        </component>
-        <component type="library">
-            <group>phpdocumentor</group>
-            <name>reflection-docblock</name>
-            <version>5.2.0</version>
-            <description>With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/phpdocumentor/reflection-docblock@5.2.0</purl>
-        </component>
-        <component type="library">
-            <group>phpdocumentor</group>
-            <name>type-resolver</name>
-            <version>1.3.0</version>
-            <description>A PSR-5 based resolver of Class names, Types and Structural Element Names</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/phpdocumentor/type-resolver@1.3.0</purl>
-        </component>
-        <component type="library">
-            <group>phpspec</group>
-            <name>prophecy</name>
-            <version>1.11.1</version>
-            <description>Highly opinionated mocking framework for PHP 5.3+</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/phpspec/prophecy@1.11.1</purl>
-        </component>
-        <component type="library">
-            <group>phpunit</group>
-            <name>php-code-coverage</name>
-            <version>7.0.10</version>
-            <description>Library that provides collection, processing, and rendering functionality for PHP code coverage information.</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/phpunit/php-code-coverage@7.0.10</purl>
-        </component>
-        <component type="library">
-            <group>phpunit</group>
-            <name>php-file-iterator</name>
-            <version>2.0.2</version>
-            <description>FilterIterator implementation that filters files based on a list of suffixes.</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/phpunit/php-file-iterator@2.0.2</purl>
-        </component>
-        <component type="library">
-            <group>phpunit</group>
-            <name>php-text-template</name>
-            <version>1.2.1</version>
-            <description>Simple template engine.</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/phpunit/php-text-template@1.2.1</purl>
-        </component>
-        <component type="library">
-            <group>phpunit</group>
-            <name>php-timer</name>
-            <version>2.1.2</version>
-            <description>Utility class for timing</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/phpunit/php-timer@2.1.2</purl>
-        </component>
-        <component type="library">
-            <group>phpunit</group>
-            <name>php-token-stream</name>
-            <version>3.1.1</version>
-            <description>Wrapper around PHP's tokenizer extension.</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/phpunit/php-token-stream@3.1.1</purl>
-        </component>
-        <component type="library">
-            <group>phpunit</group>
-            <name>phpunit</name>
-            <version>8.5.8</version>
-            <description>The PHP Unit Testing framework.</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/phpunit/phpunit@8.5.8</purl>
-        </component>
-        <component type="library">
-            <group>scrivo</group>
-            <name>highlight.php</name>
-            <version>9.18.1.1</version>
-            <description>Server side syntax highlighter that supports 185 languages. It's a PHP port of highlight.js</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/scrivo/highlight.php@9.18.1.1</purl>
-        </component>
-        <component type="library">
-            <group>sebastian</group>
-            <name>code-unit-reverse-lookup</name>
-            <version>1.0.1</version>
-            <description>Looks up which function or method a line of code belongs to</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/sebastian/code-unit-reverse-lookup@1.0.1</purl>
-        </component>
-        <component type="library">
-            <group>sebastian</group>
-            <name>comparator</name>
-            <version>3.0.2</version>
-            <description>Provides the functionality to compare PHP values for equality</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/sebastian/comparator@3.0.2</purl>
-        </component>
-        <component type="library">
-            <group>sebastian</group>
-            <name>diff</name>
-            <version>3.0.2</version>
-            <description>Diff implementation</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/sebastian/diff@3.0.2</purl>
-        </component>
-        <component type="library">
-            <group>sebastian</group>
-            <name>environment</name>
-            <version>4.2.3</version>
-            <description>Provides functionality to handle HHVM/PHP environments</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/sebastian/environment@4.2.3</purl>
-        </component>
-        <component type="library">
-            <group>sebastian</group>
-            <name>exporter</name>
-            <version>3.1.2</version>
-            <description>Provides the functionality to export PHP variables for visualization</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/sebastian/exporter@3.1.2</purl>
-        </component>
-        <component type="library">
-            <group>sebastian</group>
-            <name>global-state</name>
-            <version>3.0.0</version>
-            <description>Snapshotting of global state</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/sebastian/global-state@3.0.0</purl>
-        </component>
-        <component type="library">
-            <group>sebastian</group>
-            <name>object-enumerator</name>
-            <version>3.0.3</version>
-            <description>Traverses array structures and object graphs to enumerate all referenced objects</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/sebastian/object-enumerator@3.0.3</purl>
-        </component>
-        <component type="library">
-            <group>sebastian</group>
-            <name>object-reflector</name>
-            <version>1.1.1</version>
-            <description>Allows reflection of object attributes, including inherited and non-public ones</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/sebastian/object-reflector@1.1.1</purl>
-        </component>
-        <component type="library">
-            <group>sebastian</group>
-            <name>recursion-context</name>
-            <version>3.0.0</version>
-            <description>Provides functionality to recursively process PHP variables</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/sebastian/recursion-context@3.0.0</purl>
-        </component>
-        <component type="library">
-            <group>sebastian</group>
-            <name>resource-operations</name>
-            <version>2.0.1</version>
-            <description>Provides a list of PHP built-in functions that operate on resources</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/sebastian/resource-operations@2.0.1</purl>
-        </component>
-        <component type="library">
-            <group>sebastian</group>
-            <name>type</name>
-            <version>1.1.3</version>
-            <description>Collection of value objects that represent the types of the PHP type system</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/sebastian/type@1.1.3</purl>
-        </component>
-        <component type="library">
-            <group>sebastian</group>
-            <name>version</name>
-            <version>2.0.1</version>
-            <description>Library that helps with managing the version number of Git-hosted PHP projects</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/sebastian/version@2.0.1</purl>
-        </component>
-        <component type="library">
-            <group>theseer</group>
-            <name>tokenizer</name>
-            <version>1.2.0</version>
-            <description>A small library for converting tokenized PHP source code into XML and potentially other formats</description>
-            <licenses>
-                <license>
-                    <id>BSD-3-Clause</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/theseer/tokenizer@1.2.0</purl>
-        </component>
-        <component type="library">
-            <group>webmozart</group>
-            <name>assert</name>
-            <version>1.9.1</version>
-            <description>Assertions to validate method input/output with nice error messages.</description>
-            <licenses>
-                <license>
-                    <id>MIT</id>
-                </license>
-            </licenses>
-            <purl>pkg://composer/webmozart/assert@1.9.1</purl>
+            <purl>pkg:composer/voku/portable-ascii@1.5.6</purl>
         </component>
     </components>
 </bom>

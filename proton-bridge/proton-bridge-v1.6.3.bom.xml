@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:05f17eff-5296-4a84-a16c-d572c5178b13" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:836dad65-9f24-40ee-8074-71433055a058" version="1">
   <metadata>
-    <timestamp>2021-05-16T15:46:37+02:00</timestamp>
+    <timestamp>2021-05-16T17:07:43+02:00</timestamp>
     <tools>
       <tool>
         <vendor>CycloneDX</vendor>
         <name>cyclonedx-gomod</name>
-        <version>v0.6.0</version>
+        <version>v0.6.1</version>
         <hashes>
-          <hash alg="MD5">d0517cb759962ccf9c41c8a12875a8f4</hash>
-          <hash alg="SHA-1">0a7059c2ba93d66a6f3b895ea446a74ab8cf24d0</hash>
-          <hash alg="SHA-256">d9695be77c111ebff786b384581b76ccbf4e8e4463969f6e6e22e9dd9a7ed465</hash>
-          <hash alg="SHA-512">9e6f27516614980c9a745574dcf755679efaacf5cf2beafaf1a5ad67ff99f568f811bbac65e9641f3f82c9da8066d28e5487f52f6b1fa179ec9a878e8a7d461d</hash>
+          <hash alg="MD5">a92d9f6145a94c2c7ad8489d84301eb9</hash>
+          <hash alg="SHA-1">a5af6c5ef3f21bf5425c680b64acf57cc6a90c69</hash>
+          <hash alg="SHA-256">dc215a651772356eca763d6fe77169379c1cc25c2bb89c7d6df2e2170c3972ab</hash>
+          <hash alg="SHA-512">387953ab509c31bf352693de9df617650c87494e607119bc284b91ba9a0a2d284a2e96946c272dc284c4370875412eea855bc30351faedd099dbdbed209e4636</hash>
         </hashes>
       </tool>
     </tools>
@@ -37,7 +37,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -58,12 +57,10 @@
       <licenses>
         <license>
           <id>CC0-1.0</id>
-          <name>Creative Commons Zero v1.0 Universal</name>
           <url>https://spdx.org/licenses/CC0-1.0.html</url>
         </license>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -84,7 +81,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -105,8 +101,10 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
+        </license>
+        <license>
+          <name>GooglePatentClause</name>
         </license>
       </licenses>
       <purl>pkg:golang/github.com/BurntSushi/xgb@v0.0.0-20160522181843-27f122750802</purl>
@@ -126,7 +124,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -147,7 +144,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -168,7 +164,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -189,7 +184,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -210,7 +204,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -231,7 +224,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -252,7 +244,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -273,7 +264,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -294,7 +284,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -315,7 +304,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -336,7 +324,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -357,7 +344,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -378,7 +364,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -399,7 +384,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -420,7 +404,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -441,7 +424,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -462,7 +444,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -483,7 +464,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -504,12 +484,10 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -530,7 +508,6 @@
       <licenses>
         <license>
           <id>MPL-2.0</id>
-          <name>Mozilla Public License 2.0</name>
           <url>https://spdx.org/licenses/MPL-2.0.html</url>
         </license>
       </licenses>
@@ -551,7 +528,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -586,7 +562,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -607,7 +582,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -628,7 +602,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -649,7 +622,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -670,7 +642,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -691,7 +662,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -712,7 +682,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -733,7 +702,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -754,7 +722,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -775,7 +742,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -796,7 +762,6 @@
       <licenses>
         <license>
           <id>ISC</id>
-          <name>ISC License</name>
           <url>https://spdx.org/licenses/ISC.html</url>
         </license>
       </licenses>
@@ -817,7 +782,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -852,7 +816,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -887,7 +850,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -908,7 +870,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -943,7 +904,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -964,7 +924,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -985,7 +944,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1006,7 +964,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1027,7 +984,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1048,7 +1004,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1069,7 +1024,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1090,7 +1044,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1111,7 +1064,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1132,7 +1084,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1153,7 +1104,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1174,7 +1124,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1209,7 +1158,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1230,7 +1178,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1251,7 +1198,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -1272,7 +1218,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -1293,7 +1238,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1314,7 +1258,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -1335,7 +1278,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1356,7 +1298,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1377,7 +1318,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -1398,7 +1338,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1419,7 +1358,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1440,7 +1378,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1461,7 +1398,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1482,7 +1418,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1503,7 +1438,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1524,7 +1458,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -1545,7 +1478,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -1566,7 +1498,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -1587,7 +1518,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -1608,7 +1538,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -1629,7 +1558,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -1650,7 +1578,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -1671,7 +1598,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -1692,7 +1618,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -1713,7 +1638,6 @@
       <licenses>
         <license>
           <id>MPL-2.0</id>
-          <name>Mozilla Public License 2.0</name>
           <url>https://spdx.org/licenses/MPL-2.0.html</url>
         </license>
       </licenses>
@@ -1734,7 +1658,6 @@
       <licenses>
         <license>
           <id>MPL-2.0</id>
-          <name>Mozilla Public License 2.0</name>
           <url>https://spdx.org/licenses/MPL-2.0.html</url>
         </license>
       </licenses>
@@ -1755,7 +1678,6 @@
       <licenses>
         <license>
           <id>MPL-2.0</id>
-          <name>Mozilla Public License 2.0</name>
           <url>https://spdx.org/licenses/MPL-2.0.html</url>
         </license>
       </licenses>
@@ -1776,7 +1698,6 @@
       <licenses>
         <license>
           <id>MPL-2.0</id>
-          <name>Mozilla Public License 2.0</name>
           <url>https://spdx.org/licenses/MPL-2.0.html</url>
         </license>
       </licenses>
@@ -1797,7 +1718,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1818,7 +1738,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1839,7 +1758,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -1860,7 +1778,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -1881,7 +1798,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1902,7 +1818,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -1923,7 +1838,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -1958,7 +1872,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -1979,7 +1892,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2000,7 +1912,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2021,7 +1932,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2042,7 +1952,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2063,7 +1972,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -2084,7 +1992,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -2105,7 +2012,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2126,7 +2032,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -2147,7 +2052,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2168,7 +2072,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2189,7 +2092,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -2210,7 +2112,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -2231,7 +2132,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2252,7 +2152,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2273,7 +2172,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2294,7 +2192,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2315,7 +2212,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2336,7 +2232,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2357,7 +2252,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2378,7 +2272,6 @@
       <licenses>
         <license>
           <id>Unlicense</id>
-          <name>The Unlicense</name>
           <url>https://spdx.org/licenses/Unlicense.html</url>
         </license>
       </licenses>
@@ -2399,7 +2292,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -2420,7 +2312,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2441,7 +2332,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2462,7 +2352,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2483,7 +2372,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2518,7 +2406,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2539,7 +2426,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -2560,7 +2446,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -2581,7 +2466,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2602,7 +2486,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2623,7 +2506,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -2644,7 +2526,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -2665,7 +2546,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2686,7 +2566,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -2707,7 +2586,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -2728,7 +2606,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -2749,7 +2626,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -2770,7 +2646,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2791,7 +2666,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2812,7 +2686,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2833,7 +2706,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2854,7 +2726,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2875,7 +2746,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -2896,7 +2766,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -2917,7 +2786,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -2938,7 +2806,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -2959,7 +2826,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -2980,7 +2846,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -3001,7 +2866,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3022,7 +2886,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3043,7 +2906,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3064,7 +2926,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3085,7 +2946,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3106,7 +2966,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3127,7 +2986,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3148,7 +3006,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3169,7 +3026,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -3190,7 +3046,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3211,7 +3066,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -3232,7 +3086,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3253,7 +3106,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3274,7 +3126,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3295,7 +3146,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3316,7 +3166,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3337,7 +3186,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3358,7 +3206,6 @@
       <licenses>
         <license>
           <id>LGPL-3.0</id>
-          <name>GNU Lesser General Public License v3.0 only</name>
           <url>https://spdx.org/licenses/LGPL-3.0.html</url>
         </license>
       </licenses>
@@ -3379,7 +3226,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3400,7 +3246,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3421,7 +3266,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3442,7 +3286,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3463,7 +3306,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3484,7 +3326,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3505,7 +3346,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3526,7 +3366,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3547,7 +3386,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -3568,7 +3406,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -3589,7 +3426,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -3610,7 +3446,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -3631,7 +3466,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -3652,7 +3486,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3673,7 +3506,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3694,7 +3526,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3715,7 +3546,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3750,7 +3580,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -3766,7 +3595,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3787,7 +3615,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3803,7 +3630,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3819,7 +3645,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3835,7 +3660,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3851,7 +3675,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3867,7 +3690,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3883,7 +3705,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3899,7 +3720,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3915,7 +3735,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3931,7 +3750,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3947,7 +3765,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -3963,7 +3780,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -3984,7 +3800,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -4005,7 +3820,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -4026,7 +3840,6 @@
       <licenses>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>
@@ -4047,7 +3860,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -4068,7 +3880,6 @@
       <licenses>
         <license>
           <id>BSD-2-Clause</id>
-          <name>BSD 2-Clause &#34;Simplified&#34; License</name>
           <url>https://spdx.org/licenses/BSD-2-Clause.html</url>
         </license>
       </licenses>
@@ -4089,7 +3900,6 @@
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
-          <name>BSD 3-Clause &#34;New&#34; or &#34;Revised&#34; License</name>
           <url>https://spdx.org/licenses/BSD-3-Clause.html</url>
         </license>
       </licenses>
@@ -4110,7 +3920,6 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
       </licenses>
@@ -4131,12 +3940,10 @@
       <licenses>
         <license>
           <id>Apache-2.0</id>
-          <name>Apache License 2.0</name>
           <url>https://spdx.org/licenses/Apache-2.0.html</url>
         </license>
         <license>
           <id>MIT</id>
-          <name>MIT License</name>
           <url>https://spdx.org/licenses/MIT.html</url>
         </license>
       </licenses>

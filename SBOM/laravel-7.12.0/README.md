@@ -1,7 +1,6 @@
 # Example: laravel 7.12.0
 
-The files [`bom.xml`](bom.xml)
-and [`bom.json`](bom.json)
+The files in this folder
 were created by [cyclonedx-php-composer demo project]
 in a reproducible way.
 

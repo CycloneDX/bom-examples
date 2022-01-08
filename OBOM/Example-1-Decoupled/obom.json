@@ -1,0 +1,82 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:882b032e-0f98-4017-a0ea-b763e94b7269",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-08-02T12:00:00Z",
+    "component": {
+      "type": "application",
+      "name": "Keycloak",
+      "version": "10.0.2",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:411dafd2-c29f-491a-97d7-e97de5bc2289/1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "internal.keycloak.migration.action",
+          "value": "export"
+        },
+        {
+          "name": "internal.keycloak.migration.provider",
+          "value": "singleFile"
+        },
+        {
+          "name": "internal.keycloak.migration.realmName",
+          "value": "my_realm"
+        },
+        {
+          "name": "internal.keycloak.migration.usersExportStrategy",
+          "value": "REALM_FILE"
+        },
+        {
+          "name": "internal.keycloak.migration.file",
+          "value": "/tmp/my_realm.json"
+        },
+        {
+          "name": "internal.application.owners.technical",
+          "value": "Acme Security IAM"
+        },
+        {
+          "name": "internal.application.owners.technical.contact",
+          "value": "security-iam@example.com"
+        },
+        {
+          "name": "internal.application.owners.business",
+          "value": "Acme IT"
+        },
+        {
+          "name": "internal.application.owners.business.contact",
+          "value": "itsupport@example.com"
+        },
+        {
+          "name": "internal.deployment.method",
+          "value": "container"
+        },
+        {
+          "name": "internal.deployment.cloud",
+          "value": "aws"
+        },
+        {
+          "name": "internal.deployment.cloud.region",
+          "value": "us-east-1"
+        },
+        {
+          "name": "internal.deployment.cloud.region",
+          "value": "us-west-1"
+        },
+        {
+          "name": "internal.deployment.cloud.region",
+          "value": "eu-west-2"
+        },
+        {
+          "name": "internal.deployment.cloud.region",
+          "value": "eu-north-1"
+        }
+      ]
+    }
+  }
+}

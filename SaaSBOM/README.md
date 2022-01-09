@@ -14,7 +14,7 @@ flow of data between services. Optionally, SaaSBOMs may also include the softwar
 
 CycloneDX is protocol agnostic and is capable of describing services over HTTP(S), REST, GraphQL, MQTT, and intra-process communication.
 The specification provides enough information about services to automatically generate dataflow diagrams useful in
-security and privacy threat modeling. Refer to [Use Cases](../../use-cases) for details on services.
+security and privacy threat modeling. Refer to [Use Cases](https://cyclonedx.org/use-cases) for details on services.
 
 Use of CycloneDX SaaSBOMs is recommended by the [Cloud Security Alliance](https://cloudsecurityalliance.org/).
 

@@ -14,7 +14,7 @@ the VEX from the BOM. This allows VEX information to be updated without having t
 
 VEX is an integral part of the CycloneDX specification providing the convenience of leveraging a single format and tool chain.
 
-![Independent BOM and VEX Document](https://cyclonedx.org/theme/assets/images/vexbom.svg){: width="500" }
+<img src="https://cyclonedx.org/theme/assets/images/vexbom.svg" width="500" alt="Independent BOM and VEX Document">
 
 With CycloneDX, it is possible to reference a component, service, or vulnerability inside a BOM from other systems or
 other BOMs. This deep-linking capability is referred to as BOM-Link.
@@ -38,7 +38,7 @@ urn:cdx:f08a6ccd-4dce-4759-bd84-c626675d60a7/1#componentA
 
 ## BOM With Embedded VEX
 
-![BOM With Embedded VEX](https://cyclonedx.org/theme/assets/images/embedded-vex.svg){: width="167" }
+<img src="https://cyclonedx.org/theme/assets/images/embedded-vex.svg" width="167" alt="BOM With Embedded VEX">
 
 CycloneDX also supports embedding VEX information inside a BOM, thus having a single artifact that describes both
 inventory and VEX data. There are several uses for embedding VEX data including:
@@ -56,5 +56,4 @@ recommended. Refer to the [Security Advisories Use Case](https://cyclonedx.org/u
 CSAF also supports an optional VEX profile which can be used with CycloneDX.
 
 ## High-Level Object Model
-
-![CycloneDX Object Model Swimlane](../../theme/assets/images/CycloneDX-Object-Model-Swimlane.svg){: width="900"}
+![CycloneDX Object Model Swimlane](https://cyclonedx.org/theme/assets/images/CycloneDX-Object-Model-Swimlane.svg)

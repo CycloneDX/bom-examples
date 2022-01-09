@@ -5,9 +5,11 @@
 
 
 # CycloneDX BOM Examples
-This repository contains example CycloneDX Bill of Materials (BOM) created from various open source projects.
+CycloneDX was designed from the ground-up to be a Bill of Materials (BOM) format, capable of capturing complex inventory 
+information for a wide range of cybersecurity and software supply chain use cases.
 
-This repo is divided into different BOM types including:
+This repository contains example CycloneDX Bill of Materials (BOM) created from various open source projects. Examples 
+are categorized by different BOM types including:
 
 | BOM Type           | Description                             |
 | ------------------ | --------------------------------------- |

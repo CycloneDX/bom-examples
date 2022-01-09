@@ -11,7 +11,7 @@ Adopting CycloneDX allows organizations to quickly meet these minimum requiremen
 sophisticated use cases over time. CycloneDX is capable of achieving all SBOM requirements defined in the
 [OWASP Software Component Verification Standard (SCVS)](http://owasp.org/scvs).
 
-CycloneDX can represent any type of software component along with services the software relies on. Refer to [Use Cases](../../use-cases)
+CycloneDX can represent any type of software component along with services the software relies on. Refer to [Use Cases](https://cyclonedx.org/use-cases)
 for details on the many possibilities that exist for beginner, intermediate, and advanced
 SBOM use cases.
 

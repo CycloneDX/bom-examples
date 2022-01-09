@@ -12,7 +12,7 @@ product. A formal property taxonomy can be leveraged and extended to describe an
 CycloneDX can also reference documentation that may describe the 'recipe' for how the product is manufactured.  
 Organizations, or entire industries, can also leverage multiple extension points to develop advanced models.
 
-## Example-1
+## PCIe SATA adapter board
 
 This specific example is a PCIe SATA adapter board created by the [Computer Architecture Group, University of Cambridge 
 Computer Laboratory](http://www.cl.cam.ac.uk/research/comparch/). The design and parts lists were derived from

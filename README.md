@@ -4,8 +4,17 @@
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Follow)](https://twitter.com/CycloneDX_Spec)
 
 
-# CycloneDX SBOM Examples
-This repository contains example CycloneDX Software Bill of Materials (SBOM) documents created from various 
-open source projects.
+# CycloneDX BOM Examples
+This repository contains example CycloneDX Bill of Materials (BOM) created from various open source projects.
+
+This repo is divided into different BOM types including:
+
+| BOM Type           | Description                             |
+| ------------------ | --------------------------------------- |
+| [MBOM](MBOM)       | Manufacturing Bill of Materials         |
+| [OBOM](OBOM)       | Operations Bill of Materials            |
+| [SaaSBOM](SaaSBOM) | Software-as-a-Service Bill of Materials |
+| [SBOM](SBOM)       | Software Bill of Materials              |
+| [VEX](VEX)         | Vulnerability Exploitability Exchange   |
 
 When possible, the BOMs conform to the latest version of the CycloneDX specification.

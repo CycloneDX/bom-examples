@@ -57742,6 +57742,26 @@
         }
       ],
       "purl": "pkg:maven/org.keycloak.example.demo/product-portal-example@10.0.2?type=war"
+    },
+    {
+      "type": "operating-system",
+      "bom-ref": "rhel-8.0",
+      "supplier": {
+        "name": "Red Hat",
+        "url": [
+          "https://redhat.com"
+        ]
+      },
+      "group": "com.redhat",
+      "name": "Red Hat Enterprise Linux",
+      "version": "8.0",
+      "cpe": "cpe:2.3:o:redhat:enterprise_linux:8.0:*:*:*:*:*:*:*",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "https://example.com/sboms/rhel-8.0.json"
+        }
+      ]
     }
   ],
   "dependencies": [

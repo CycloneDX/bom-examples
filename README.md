@@ -18,3 +18,6 @@ This repo is divided into different BOM types including:
 | [VEX](VEX)         | Vulnerability Exploitability Exchange   |
 
 When possible, the BOMs conform to the latest version of the CycloneDX specification.
+
+## High-Level Object Model
+![CycloneDX Object Model Swimlane](https://cyclonedx.org/theme/assets/images/CycloneDX-Object-Model-Swimlane.svg)

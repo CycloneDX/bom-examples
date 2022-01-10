@@ -141,7 +141,7 @@
           "version": "14.1",
           "description": "Postgres database for Microservice #1",
           "endpoints": [
-            "https://ms-1-pgsql.example.com"
+            "https://ms-1-pgsql.example.com:5432"
           ],
           "authenticated": true,
           "x-trust-boundary": false,

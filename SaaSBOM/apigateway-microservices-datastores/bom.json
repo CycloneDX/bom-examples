@@ -1,0 +1,201 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2021-01-10T12:00:00Z",
+    "component": {
+      "bom-ref": "acme-application",
+      "type": "application",
+      "name": "Acme Cloud Example",
+      "version": "2022-1"
+    }
+  },
+  "services": [
+    {
+      "bom-ref": "api-gateway",
+      "provider": {
+        "name": "Acme Inc",
+        "url": [ "https://example.com" ]
+      },
+      "group": "com.example",
+      "name": "API Gateway",
+      "version": "2022-1",
+      "description": "Example API Gateway",
+      "endpoints": [
+        "https://example.com/",
+        "https://example.com/app"
+      ],
+      "authenticated": false,
+      "x-trust-boundary": true,
+      "data": [
+        {
+          "classification": "PII",
+          "flow": "bi-directional"
+        },
+        {
+          "classification": "PIFI",
+          "flow": "bi-directional"
+        },
+        {
+          "classification": "Public",
+          "flow": "bi-directional"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "documentation",
+          "url": "http://example.com/app/swagger"
+        }
+      ],
+      "services": [
+        {
+          "bom-ref": "ms-1.example.com",
+          "provider": {
+            "name": "Acme Inc",
+            "url": [ "https://example.com" ]
+          },
+          "group": "com.example",
+          "name": "Microservice 1",
+          "version": "2022-1",
+          "description": "Example Microservice",
+          "endpoints": [
+            "https://ms-1.example.com"
+          ],
+          "authenticated": true,
+          "x-trust-boundary": false,
+          "data": [
+            {
+              "classification": "PII",
+              "flow": "bi-directional"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://ms-1.example.com/swagger"
+            }
+          ]
+        },
+        {
+          "bom-ref": "ms-2.example.com",
+          "provider": {
+            "name": "Acme Inc",
+            "url": [ "https://example.com" ]
+          },
+          "group": "com.example",
+          "name": "Microservice 2",
+          "version": "2022-1",
+          "description": "Example Microservice",
+          "endpoints": [
+            "https://ms-2.example.com"
+          ],
+          "authenticated": true,
+          "x-trust-boundary": false,
+          "data": [
+            {
+              "classification": "PIFI",
+              "flow": "bi-directional"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://ms-2.example.com/swagger"
+            }
+          ]
+        },
+        {
+          "bom-ref": "ms-3.example.com",
+          "provider": {
+            "name": "Acme Inc",
+            "url": [ "https://example.com" ]
+          },
+          "group": "com.example",
+          "name": "Microservice 3",
+          "version": "2022-1",
+          "description": "Example Microservice",
+          "endpoints": [
+            "https://ms-3.example.com"
+          ],
+          "authenticated": true,
+          "x-trust-boundary": false,
+          "data": [
+            {
+              "classification": "Public",
+              "flow": "bi-directional"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://ms-3.example.com/swagger"
+            }
+          ]
+        },
+        {
+          "bom-ref": "ms-1-pgsql.example.com",
+          "group": "org.postgresql",
+          "name": "Postgres",
+          "version": "14.1",
+          "description": "Postgres database for Microservice #1",
+          "endpoints": [
+            "https://ms-1-pgsql.example.com"
+          ],
+          "authenticated": true,
+          "x-trust-boundary": false,
+          "data": [
+            {
+              "classification": "PII",
+              "flow": "bi-directional"
+            }
+          ]
+        },
+        {
+          "bom-ref": "s3-example.amazon.com",
+          "group": "com.amazon",
+          "name": "S3",
+          "description": "S3 bucket",
+          "endpoints": [
+            "https://s3-example.amazon.com"
+          ],
+          "authenticated": true,
+          "x-trust-boundary": true,
+          "data": [
+            {
+              "classification": "Public",
+              "flow": "bi-directional"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "acme-application",
+      "dependsOn": [ "api-gateway" ]
+    },
+    {
+      "ref": "api-gateway",
+      "dependsOn": [
+        "ms-1.example.com",
+        "ms-2.example.com",
+        "ms-3.example.com"
+      ]
+    },
+    {
+      "ref": "ms-1.example.com",
+      "dependsOn": [ "ms-1-pgsql.example.com" ]
+    },
+    {
+      "ref": "ms-2.example.com",
+      "dependsOn": [ ]
+    },
+    {
+      "ref": "ms-3.example.com",
+      "dependsOn": [ "s3-example.amazon.com" ]
+    }
+  ]
+}

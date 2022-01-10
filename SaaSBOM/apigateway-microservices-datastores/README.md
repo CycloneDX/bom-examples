@@ -1,6 +1,6 @@
 # Software-as-a-Service BOM (SaaSBOM)
 
-<img src="https://cyclonedx.org/theme/assets/images/dataflow-diagram-1.svg" width="600" alt="Dataflow Diagram" align="right">
+<img src="https://cyclonedx.org/theme/assets/images/dataflow-diagram-1.svg" width="500" alt="Dataflow Diagram" align="right">
 
 Modern software often relies on external services, or is made up entirely of services. CycloneDX is capable of describing any type of service including:
 - Microservice Architecture

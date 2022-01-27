@@ -1,0 +1,387 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "vulnerabilities": [
+    {
+      "id": "CVE-2020-11896",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11897",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11898",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11899",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11900",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11901",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11902",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11903",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11904",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11905",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11906",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11907",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11908",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11909",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11910",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11911",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11912",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11913",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-11914",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:2c385cf7-e1ee-46e9-a51c-13de1ecb380a/1#acme-product-1"
+        },
+        {
+          "ref": "urn:cdx:6ffac0b2-5246-4fb9-a6fe-7993041856a0/1#acme-product-2"
+        },
+        {
+          "ref": "urn:cdx:240b5b0b-917d-4f48-816c-97e1944d8079/1#acme-product-3"
+        }
+      ]
+    }
+  ]
+}

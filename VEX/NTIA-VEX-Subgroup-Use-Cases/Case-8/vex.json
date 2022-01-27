@@ -1,0 +1,58 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "metadata" : {
+    "timestamp" : "2022-01-13T00:00:00Z",
+    "component" : {
+      "name" : "Acme Product",
+      "type" : "application",
+      "bom-ref" : "acme-product"
+    }
+  },
+  "vulnerabilities": [
+    {
+      "id": "CVE-2020-25649",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-25649"
+      },
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "acme-product",
+          "versions": {
+            "range": "vers:semver/>=2.0.0|<=2.7.0",
+            "state": "unaffected"
+          }
+        },
+        {
+          "ref": "acme-product",
+          "versions": {
+            "range": "vers:semver/>=3.0.0|<=3.2.0",
+            "state": "unaffected"
+          }
+        },
+        {
+          "ref": "acme-product",
+          "versions": {
+            "range": "vers:semver/>=3.8.0|<=4.1.0",
+            "state": "unaffected"
+          }
+        },
+        {
+          "ref": "acme-product",
+          "versions": {
+            "version": "5.9.0",
+            "state": "unaffected"
+          }
+        }
+      ]
+    }
+  ]
+}

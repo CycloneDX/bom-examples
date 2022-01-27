@@ -1,4 +1,10 @@
 # VEX Use Case 6
 
-A VEX states that CVE-2020-25649 is not exploitable in versions 2.0.0-2.7.0, 3.0.0-3.2.0, 
-3.8.0-4.1.0, and 5.9 of product X. It should be assumed to be exploitable in all other versions.
+| Multiple Products | All Versions | Single Vulnerability | Not Affected |
+| --- | --- | --- | --- |
+
+A VEX states that CVE-2020-25649 is not exploitable in any current version of a family of products made 
+by a particular manufacturer.
+
+In this example, there are three products and an SBOM for each. The inventory of bom-1, bom-2, and bom-3 was
+intentionally omitted for simplicity of the example. 

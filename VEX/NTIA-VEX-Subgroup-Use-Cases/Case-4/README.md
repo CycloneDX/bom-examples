@@ -1,7 +1,6 @@
 # VEX Use Case 4
 
-A VEX states that CVE-2020-25649 is not exploitable in any current version of any product made by a 
-particular software developer.
+| Single Product | Multiple Versions | Single Vulnerability | Affected |
+| --- | --- | --- | --- |
 
-This example is a bit vague, as the metadata section doesn't state which component (product) the VEX is
-applicable to. In reality, the VEX should be applied to a group of SBOMs, similar to [Case-3](../Case-3).
+A VEX states that CVE-2020-25649 is not exploitable in Acme Product versions 2.2.0 through 2.4.0.

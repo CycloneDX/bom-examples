@@ -1,0 +1,69 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "metadata" : {
+    "timestamp" : "2022-01-13T00:00:00Z",
+    "component" : {
+      "name" : "Acme Product",
+      "version": "2.2.0",
+      "type" : "application",
+      "bom-ref" : "acme-product"
+    }
+  },
+  "vulnerabilities": [
+    {
+      "id": "CVE-2020-25649",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-25649"
+      },
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
+      },
+      "affects": [
+        {
+          "ref": "acme-product"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-35491",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-35491"
+      },
+      "analysis": {
+        "state": "exploitable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Update to Acme Product v2.4.0 or higher"
+      },
+      "affects": [
+        {
+          "ref": "acme-product"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2020-14195",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-14195"
+      },
+      "analysis": {
+        "state": "not_affected",
+        "justification": "protected_by_mitigating_control",
+        "response": ["will_not_fix", "update"],
+        "detail": "Vulnerability is not exploitable due to existing mitigating controls that prevent user-controlled input from being passed to JNDI."
+      },
+      "affects": [
+        {
+          "ref": "acme-product"
+        }
+      ]
+    }
+  ]
+}

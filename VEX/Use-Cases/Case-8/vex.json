@@ -26,31 +26,24 @@
       "affects": [
         {
           "ref": "acme-product",
-          "versions": {
-            "range": "vers:semver/>=2.0.0|<=2.7.0",
-            "state": "unaffected"
-          }
-        },
-        {
-          "ref": "acme-product",
-          "versions": {
-            "range": "vers:semver/>=3.0.0|<=3.2.0",
-            "state": "unaffected"
-          }
-        },
-        {
-          "ref": "acme-product",
-          "versions": {
-            "range": "vers:semver/>=3.8.0|<=4.1.0",
-            "state": "unaffected"
-          }
-        },
-        {
-          "ref": "acme-product",
-          "versions": {
-            "version": "5.9.0",
-            "state": "unaffected"
-          }
+          "versions": [
+            {
+              "range": "vers:semver/>=2.0.0|<=2.7.0",
+              "status": "unaffected"
+            },
+            {
+              "range": "vers:semver/>=3.0.0|<=3.2.0",
+              "status": "unaffected"
+            },
+            {
+              "range": "vers:semver/>=3.8.0|<=4.1.0",
+              "status": "unaffected"
+            },
+            {
+              "version": "5.9.0",
+              "status": "unaffected"
+            }
+          ]
         }
       ]
     }

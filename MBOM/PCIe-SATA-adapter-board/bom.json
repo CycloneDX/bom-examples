@@ -19,7 +19,7 @@
       "bom-ref": "PCIE-098-02-F-D-EMS2",
       "supplier": {
         "name": "Samtec",
-        "url": "https://www.samtec.com/"
+        "url": ["https://www.samtec.com/"]
       },
       "name": "PCIE-098-02-F-D-EMS2",
       "version": "2.9.10",
@@ -54,7 +54,7 @@
       "bom-ref": "molex-47155-4001",
       "supplier": {
         "name": "Molex",
-        "url": "https://www.molex.com/"
+        "url": ["https://www.molex.com/"]
       },
       "name": "47155-4001",
       "description": "I/O Connectors HIGH SPEED CONN 1.27 VERT DIP SOLDERTAIL",
@@ -92,7 +92,7 @@
       "bom-ref": "3M-5622-4100-ML",
       "supplier": {
         "name": "3M",
-        "url": "https://www.3m.com/"
+        "url": ["https://www.3m.com/"]
       },
       "name": "5622-4100-ML",
       "description": "22 Position SATA Plug Connector Solder Through Hole, Right Angle",
@@ -126,7 +126,7 @@
       "bom-ref": "MC9A22-1034",
       "supplier": {
         "name": "Multicomp",
-        "url": "https://www.multicomp-pro.com/"
+        "url": ["https://www.multicomp-pro.com/"]
       },
       "name": "MC9A22-1034",
       "description": "Header, Tht, Right Angle, 2.54MM, 10WAY",
@@ -160,7 +160,7 @@
       "bom-ref": "826632-3",
       "supplier": {
         "name": "TE Connectivity",
-        "url": "https://www.te.com/"
+        "url": ["https://www.te.com/"]
       },
       "name": "826632-3",
       "description": "AMPMODU Headers, PCB Mount Header, Vertical, Board-to-Board, 6 Position, .1 in [2.54 mm] Centerline, Breakaway",
@@ -194,7 +194,7 @@
       "bom-ref": "MP000003",
       "supplier": {
         "name": "Multicomp",
-        "url": "https://www.multicomp-pro.com/"
+        "url": ["https://www.multicomp-pro.com/"]
       },
       "name": "MP000003",
       "description": "Resistor jumper, 0R, 0805",

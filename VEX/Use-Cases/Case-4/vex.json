@@ -48,10 +48,12 @@
       "affects": [
         {
           "ref": "acme-product",
-          "versions": {
-            "range": "vers:semver/>=2.2.0|<=2.4.0",
-            "state": "unaffected"
-          }
+          "versions": [
+            {
+              "range": "vers:semver/>=2.2.0|<=2.4.0",
+              "status": "unaffected"
+            }
+          ]
         }
       ]
     }

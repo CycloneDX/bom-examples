@@ -35,10 +35,12 @@
       "affects": [
         {
           "ref": "acme-product",
-          "versions": {
-            "range": "vers:semver/<7.0.0|>=1.5.0",
-            "state": "affected"
-          }
+          "versions": [
+            {
+              "range": "vers:semver/<7.0.0|>=1.5.0",
+              "status": "affected"
+            }
+          ]  
         }
       ]
     },
@@ -69,10 +71,12 @@
       "affects": [
         {
           "ref": "acme-product",
-          "versions": {
-            "range": "vers:semver/<1.5.0|>=7.0.0",
-            "state": "unaffected"
-          }
+          "versions": [
+            {
+              "range": "vers:semver/<1.5.0|>=7.0.0",
+              "status": "unaffected"
+            }
+          ]
         }
       ]
     }

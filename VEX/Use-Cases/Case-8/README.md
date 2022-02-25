@@ -1,6 +1,6 @@
 # VEX Use Case 8
 
-| Single Product | Multiple Versions | Single Vulnerability | Affected & Not Affected |
+| Single Product | Multiple Versions (Range) | Single Vulnerability | Affected & Not Affected |
 | --- | --- | --- | --- |
 
 A VEX states that CVE-2020-25649 is not exploitable in versions 2.0.0-2.7.0, 3.0.0-3.2.0, 

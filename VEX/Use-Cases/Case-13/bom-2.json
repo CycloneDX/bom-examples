@@ -1,0 +1,14 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber" : "urn:uuid:6ffac0b2-5246-4fb9-a6fe-7993041856a0",
+  "version": 1,
+  "metadata" : {
+    "timestamp" : "2022-01-13T00:00:00Z",
+    "component" : {
+      "name" : "Acme Product 2",
+      "type" : "application",
+      "bom-ref" : "acme-product-2"
+    }
+  }
+}

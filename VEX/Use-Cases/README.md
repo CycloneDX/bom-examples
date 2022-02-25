@@ -16,6 +16,7 @@ These examples provide a wide variety of possible VEX use cases and scenarios.
 | [Case-10](Case-10) | <p><br></p><table><thead><tr><th>Single Product</th><th>Multiple Versions (Individual)</th><th>Single Vulnerability</th><th>Affected</th></tr></thead></table><p>A VEX states that CVE-2020-25649 is not exploitable in Acme Product versions 2.2.0 through 2.4.0.<br><br></p> |
 | [Case-11](Case-11) | <p><br></p><table><thead><tr><th>Single Product</th><th>Single Version</th><th>Multiple Vulnerabilities</th><th>Not Affected</th></tr></thead></table><p>A VEX states that none of the collection of vulnerabilities known as Ripple20 is exploitable in Acme Product version 2.2.0.<br><br></p> |
 | [Case-12](Case-12) | <p><br></p><table><thead><tr><th>Single Product</th><th>Single Version</th><th>Multiple Vulnerabilities</th><th>Affected and Not Affected</th></tr></thead></table><p>A VEX states that CVE-2020-25649 and CVE-2020-14195 are not exploitable with different justifications for each, and CVE-2020-35491 is exploitable. The VEX is specific to Acme Product v2.2.0.<br><br></p> |
+| [Case-13](Case-13) | <p><br></p><table><thead><tr><th>Multiple Products</th><th>All Versions</th><th>Single Vulnerability</th><th>Affected and Not Affected</th></tr></thead></table><p>A VEX states that CVE-2020-25649 is not exploitable in all versions of Acme Product 1 and Acme Product 2, but is exploitable in all versions of Acme Product 3.<br><br></p> |
 
 ### Credits
 

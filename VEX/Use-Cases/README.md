@@ -4,7 +4,7 @@ These examples provide a wide variety of possible VEX use cases and scenarios.
 
 | Case # | Description |
 |------|------|
-| [Case-1](Case-1) | <p><br></p><table><thead><tr><th>Single Product</th><th>Single Version</th><th>Single Vulnerability</th><th>Not Affected</th></tr></thead></table><p>A VEX states that CVE-2020-25649 is not exploitable in Acme Product version 2.4.0, even though it’s listed in the NVD as a vulnerability of X, and X is a component of Acme Product v2.4.0.<br></p> |
+| [Case-1](Case-1) | <p><br></p><table><thead><tr><th>Single Product</th><th>Single Version</th><th>Single Vulnerability</th><th>Not Affected</th></tr></thead></table><p>A VEX states that CVE-2020-25649 is not exploitable in Acme Product version 2.4.0, even though it’s listed in the NVD as a vulnerability of X, and X is a component of Acme Product v2.4.0.<br><br></p> |
 | [Case-2](Case-2) | <p><br></p><table><thead><tr><th>Single Product</th><th>Single Version</th><th>Single Vulnerability</th><th>Affected</th></tr></thead></table><p>A VEX states that CVE-2020-25649 is exploitable in Acme Product version 2.4.0.</p><p><br></p> |
 | [Case-3](Case-3) | <p><br></p><table><thead><tr><th>Single Product</th><th>Single Version</th><th>Single Vulnerability</th><th>Under Investigation</th></tr></thead></table><p>A VEX states that the exploitability of CVE-2020-25649 in Acme Product versions 2.4.0 is under investigation.</p><p><br></p> |
 | [Case-4](Case-4) | <p><br></p><table><thead><tr><th>Single Product</th><th>Multiple Versions (Range)</th><th>Single Vulnerability</th><th>Affected</th></tr></thead></table><p>A VEX states that CVE-2020-25649 is not exploitable in Acme Product versions 2.2.0 through 2.4.0.</p><p><br></p> |

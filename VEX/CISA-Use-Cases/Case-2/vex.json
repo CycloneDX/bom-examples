@@ -1,0 +1,567 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "metadata" : {
+    "timestamp" : "2022-03-03T00:00:00Z",
+    "component" : {
+      "name" : "ABC",
+      "version": "4.2",
+      "type" : "application",
+      "bom-ref" : "product-ABC"
+    }
+  },
+  "vulnerabilities": [
+    {
+      "id": "CVE-2020-11896",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11896"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "Example Company",
+            "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+          },
+          "score": 0.0,
+          "severity": "none",
+          "method": "CVSSv31",
+          "vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+        }
+      ],
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+      },
+      "affects": [
+        {
+          "ref": "product-ABC"
+        }
+      ]
+    },
+    {
+        "id": "CVE-2020-11897",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11897"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11898",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11898"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AAV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11899",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11899"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11900",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11900"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11901",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11901"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11902",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11902"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11903",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11903"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11904",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11904"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11905",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11905"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11906",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11906"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11907",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11907"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11908",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11908"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11909",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11909"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11910",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11910"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11911",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11911"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11912",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11912"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11913",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11913"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11914",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11914"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product ABC is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-ABC"
+          }
+        ]
+      }
+  ]
+}

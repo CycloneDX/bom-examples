@@ -5,10 +5,10 @@
   "metadata" : {
     "timestamp" : "2022-03-03T00:00:00Z",
     "component" : {
-      "name" : "ABC",
-      "version": "2.1",
+      "name" : "GHI",
+      "version": "17.4",
       "type" : "application",
-      "bom-ref" : "product-ABC"
+      "bom-ref" : "product-GHI"
     }
   },
   "vulnerabilities": [
@@ -32,11 +32,11 @@
       ],
       "analysis": {
         "state": "in_triage",
-        "detail": "This version of Product ABC is under investigation to determine if product is affected."
+        "detail": "This version of Product GHI is under investigation to determine if product is affected."
       },
       "affects": [
         {
-          "ref": "product-ABC"
+          "ref": "product-GHI"
         }
       ]
     }

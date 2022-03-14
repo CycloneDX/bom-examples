@@ -6,7 +6,7 @@
     "timestamp" : "2022-03-03T00:00:00Z",
     "component" : {
       "name" : "ABC",
-      "version": "2.1",
+      "version": "4.2",
       "type" : "application",
       "bom-ref" : "product-ABC"
     }
@@ -32,9 +32,9 @@
       ],
       "analysis": {
         "state": "not_affected",
-        "justification": "code_not_reachable",
+        "justification": "code_not_present",
         "response": ["will_not_fix"],
-        "detail": "This version of Product ABC is not affected by the vulnerability."
+        "detail": "This version of Product ABC is not affected by the vulnerability. Class with vulnerable code was removed before shipping."
       },
       "affects": [
         {

@@ -1,0 +1,103 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "metadata" : {
+    "timestamp" : "2022-03-03T00:00:00Z",
+    "component" : {
+      "name" : "ABC",
+      "type" : "application",
+      "bom-ref" : "product-ABC"
+    }
+  },
+  "vulnerabilities": [
+    {
+      "id": "CVE-2021-44228",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H&version=3.1"
+          },
+          "score": 10.0,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+        }
+      ],
+      "analysis": {
+        "state": "exploitable",
+        "response": ["will_not_fix", "update"],
+        "detail": "Versions of Product ABC are affected by the vulnerability. Customers are advised to upgrade to the latest release."
+      },
+      "affects": [
+        {
+          "ref": "product-ABC",
+          "versions": [
+            {
+              "version": "2.4",
+              "status": "affected"
+            },
+            {
+              "version": "2.6",
+              "status": "affected"
+            },
+            {
+              "range": "vers:semver/>=2.9|<=4.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2021-44228",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+          },
+          "score": 0.0,
+          "severity": "none",
+          "method": "CVSSv31",
+          "vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+        }
+      ],
+      "analysis": {
+        "state": "not_affected"
+      },
+      "affects": [
+        {
+          "ref": "product-ABC",
+          "versions": [
+            {
+              "range": "vers:semver/>=1.0|<=2.3",
+              "status": "unaffected"
+            },
+            {
+              "version": "2.5",
+              "status": "unaffected"
+            },
+            {
+              "range": "vers:semver/>=2.7|<=2.8",
+              "status": "unaffected"
+            },
+            {
+              "version": "4.2",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

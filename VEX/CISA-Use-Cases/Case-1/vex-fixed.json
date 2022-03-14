@@ -5,10 +5,10 @@
   "metadata" : {
     "timestamp" : "2022-03-03T00:00:00Z",
     "component" : {
-      "name" : "ABC",
-      "version": "2.1",
+      "name" : "DEF",
+      "version": "1.1",
       "type" : "application",
-      "bom-ref" : "product-ABC"
+      "bom-ref" : "product-DEF"
     }
   },
   "vulnerabilities": [
@@ -32,11 +32,11 @@
       ],
       "analysis": {
         "state": "resolved",
-        "detail": "This version of Product ABC has been fixed and no longer affected."
+        "detail": "This version of Product DEF has been fixed."
       },
       "affects": [
         {
-          "ref": "product-ABC"
+          "ref": "product-DEF"
         }
       ]
     }

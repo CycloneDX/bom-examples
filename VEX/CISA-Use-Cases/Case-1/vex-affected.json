@@ -5,10 +5,10 @@
   "metadata" : {
     "timestamp" : "2022-03-03T00:00:00Z",
     "component" : {
-      "name" : "ABC",
-      "version": "2.1",
+      "name" : "DEF",
+      "version": "1.0",
       "type" : "application",
-      "bom-ref" : "product-ABC"
+      "bom-ref" : "product-DEF"
     }
   },
   "vulnerabilities": [
@@ -33,11 +33,11 @@
       "analysis": {
         "state": "exploitable",
         "response": ["will_not_fix", "update"],
-        "detail": "This version of Product ABC is affected by the vulnerability. Customers are advised to upgrade to the latest release."
+        "detail": "This version of Product DEF is affected by the vulnerability. Customers are advised to upgrade to the latest release."
       },
       "affects": [
         {
-          "ref": "product-ABC"
+          "ref": "product-DEF"
         }
       ]
     }

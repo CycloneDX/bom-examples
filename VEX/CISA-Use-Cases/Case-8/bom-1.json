@@ -1,0 +1,14 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "serialNumber" : "urn:uuid:cbb2cd68-2857-43b8-a10b-e8c03d277d18",
+  "metadata" : {
+    "timestamp" : "2022-01-13T00:00:00Z",
+    "component" : {
+      "name" : "ABC",
+      "type" : "application",
+      "bom-ref" : "product-ABC"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "serialNumber" : "urn:uuid:e4c3eedc-4978-470c-ad02-6ffff63738ff",
+  "metadata" : {
+    "timestamp" : "2022-01-13T00:00:00Z",
+    "component" : {
+      "name" : "ABC",
+      "type" : "application",
+      "bom-ref" : "product-JKL"
+    }
+  }
+}

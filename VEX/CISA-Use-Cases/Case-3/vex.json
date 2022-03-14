@@ -1,0 +1,546 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "metadata" : {
+    "timestamp" : "2022-03-03T00:00:00Z",
+    "component" : {
+      "name" : "GHI",
+      "version": "17.4",
+      "type" : "application",
+      "bom-ref" : "product-GHI"
+    }
+  },
+  "vulnerabilities": [
+    {
+      "id": "CVE-2020-11896",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11896"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H&version=3.1"
+          },
+          "score": 10.0,
+          "severity": "critical",
+          "method": "CVSSv31",
+          "vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage"
+      },
+      "affects": [
+        {
+          "ref": "product-GHI"
+        }
+      ]
+    },
+    {
+        "id": "CVE-2020-11897",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11897"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product GHI is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11898",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11898"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "NVD",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H&version=3.1"
+            },
+            "score": 9.1,
+            "severity": "critical",
+            "method": "CVSSv31",
+            "vector": "AAV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+          }
+        ],
+        "analysis": {
+          "state": "exploitable",
+          "detail": "We are working to integrate the upstream patches in our code."
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11899",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11899"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product GHI is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11900",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11900"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "NVD",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H&version=3.1"
+            },
+            "score": 8.2,
+            "severity": "high",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11901",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11901"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "resolved"
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11902",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11902"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product GHI is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11903",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11903"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "NVD",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&version=3.1"
+            },
+            "score": 6.5,
+            "severity": "medium",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11904",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11904"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "NVD",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L&version=3.1"
+            },
+            "score": 7.3,
+            "severity": "high",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11905",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11905"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product GHI is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11906",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11906"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product GHI is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11907",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11907"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "NVD",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L&version=3.1"
+            },
+            "score": 6.3,
+            "severity": "medium",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+          }
+        ],
+        "analysis": {
+          "state": "exploitable",
+          "detail": "We are working to integrate the upstream patches in our code."
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11908",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11908"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "NVD",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L&version=3.1"
+            },
+            "score": 4.3,
+            "severity": "medium",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11909",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11909"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "NVD",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N&version=3.1"
+            },
+            "score": 5.3,
+            "severity": "medium",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+          }
+        ],
+        "analysis": {
+          "state": "exploitable",
+          "detail": "We are working to integrate the upstream patches in our code."
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11910",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11910"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "NVD",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N&version=3.1"
+            },
+            "score": 5.3,
+            "severity": "medium",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+          }
+        ],
+        "analysis": {
+          "state": "exploitable",
+          "detail": "We are working to integrate the upstream patches in our code."
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11911",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11911"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "NVD",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N&version=3.1"
+            },
+            "score": 5.3,
+            "severity": "medium",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+          }
+        ],
+        "analysis": {
+          "state": "exploitable",
+          "detail": "We are working to integrate the upstream patches in our code."
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11912",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11912"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "resolved"
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11913",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11913"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "not_affected",
+          "justification": "code_not_reachable",
+          "detail": "This version of Product GHI is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-11914",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11914"
+        },
+        "ratings": [
+          {
+            "source": {
+              "name": "Example Company",
+              "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+            },
+            "score": 0.0,
+            "severity": "none",
+            "method": "CVSSv31",
+            "vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+          }
+        ],
+        "analysis": {
+          "state": "resolved"
+        },
+        "affects": [
+          {
+            "ref": "product-GHI"
+          }
+        ]
+      }
+  ]
+}

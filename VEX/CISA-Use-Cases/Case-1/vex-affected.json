@@ -18,18 +18,6 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"
       },
-      "ratings": [
-        {
-          "source": {
-            "name": "NVD",
-            "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H&version=3.1"
-          },
-          "score": 10.0,
-          "severity": "critical",
-          "method": "CVSSv31",
-          "vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
-        }
-      ],
       "analysis": {
         "state": "exploitable",
         "response": ["will_not_fix", "update"],

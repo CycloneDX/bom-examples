@@ -39,7 +39,7 @@
               "status": "affected"
             },
             {
-              "range": "vers:semver/>=2.9|<=4.1",
+              "range": "vers:generic/>=2.9|<=4.1",
               "status": "affected"
             }
           ]
@@ -48,7 +48,7 @@
           "ref": "urn:cdx:e4c3eedc-4978-470c-ad02-6ffff63738ff/1#product-JKL",
           "versions": [
             {
-              "range": "vers:semver/>=4.5|<=5.0",
+              "range": "vers:generic/>=4.5|<=5.0",
               "status": "affected"
             }
           ]
@@ -74,14 +74,17 @@
         }
       ],
       "analysis": {
-        "state": "not_affected"
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "response": ["will_not_fix"],
+        "detail": "These versions of Product ABC are not affected by the vulnerability. Class with vulnerable code was removed before shipping."
       },
       "affects": [
         {
           "ref": "urn:cdx:cbb2cd68-2857-43b8-a10b-e8c03d277d18/1#product-ABC",
           "versions": [
             {
-              "range": "vers:semver/>=1.0|<=2.3",
+              "range": "vers:generic/>=1.0|<=2.3",
               "status": "unaffected"
             },
             {
@@ -89,7 +92,7 @@
               "status": "unaffected"
             },
             {
-              "range": "vers:semver/>=2.7|<=2.8",
+              "range": "vers:generic/>=2.7|<=2.8",
               "status": "unaffected"
             },
             {
@@ -97,17 +100,76 @@
               "status": "unaffected"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "CVE-2021-44228",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+          },
+          "score": 0.0,
+          "severity": "none",
+          "method": "CVSSv31",
+          "vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+        }
+      ],
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "response": ["will_not_fix"],
+        "detail": "These versions of Product JKL are not affected by the vulnerability. Log4j was not included in those versions at all."
+      },
+      "affects": [
         {
           "ref": "urn:cdx:e4c3eedc-4978-470c-ad02-6ffff63738ff/1#product-JKL",
           "versions": [
             {
-              "range": "vers:semver/>=1.0|<=4.4",
+              "range": "vers:generic/>=1.0|<=4.4",
               "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2021-44228",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+          },
+          "score": 0.0,
+          "severity": "none",
+          "method": "CVSSv31",
+          "vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+        }
+      ],
+      "analysis": {
+        "state": "resolved",
+        "detail": "This version of Product JKL has been fixed."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:e4c3eedc-4978-470c-ad02-6ffff63738ff/1#product-JKL",
+          "versions": [
+            {
+              "version": "5.1"
             },
             {
-              "version": "5.1",
-              "status": "unaffected"
+              "version": "5.2"
             }
           ]
         }
@@ -149,7 +211,7 @@
               "status": "affected"
             },
             {
-              "range": "vers:semver/>=2.9|<=4.1",
+              "range": "vers:generic/>=2.9|<=4.1",
               "status": "affected"
             }
           ]
@@ -158,7 +220,7 @@
           "ref": "urn:cdx:e4c3eedc-4978-470c-ad02-6ffff63738ff/1#product-JKL",
           "versions": [
             {
-              "range": "vers:semver/>=4.5|<=5.0",
+              "range": "vers:generic/>=4.5|<=5.0",
               "status": "affected"
             },
             {
@@ -188,14 +250,17 @@
         }
       ],
       "analysis": {
-        "state": "not_affected"
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "response": ["will_not_fix"],
+        "detail": "These versions of Product ABC are not affected by the vulnerability. Class with vulnerable code was removed before shipping."
       },
       "affects": [
         {
           "ref": "urn:cdx:cbb2cd68-2857-43b8-a10b-e8c03d277d18/1#product-ABC",
           "versions": [
             {
-              "range": "vers:semver/>=1.0|<=2.3",
+              "range": "vers:generic/>=1.0|<=2.3",
               "status": "unaffected"
             },
             {
@@ -203,7 +268,7 @@
               "status": "unaffected"
             },
             {
-              "range": "vers:semver/>=2.7|<=2.8",
+              "range": "vers:generic/>=2.7|<=2.8",
               "status": "unaffected"
             },
             {
@@ -216,12 +281,81 @@
           "ref": "urn:cdx:e4c3eedc-4978-470c-ad02-6ffff63738ff/1#product-JKL",
           "versions": [
             {
-              "range": "vers:semver/>=1.0|<=4.4",
+              "range": "vers:generic/>=1.0|<=4.4",
               "status": "unaffected"
             },
             {
               "version": "5.2",
               "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2021-45105",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45105"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+          },
+          "score": 0.0,
+          "severity": "none",
+          "method": "CVSSv31",
+          "vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+        }
+      ],
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "response": ["will_not_fix"],
+        "detail": "These versions of Product JKL are not affected by the vulnerability. Log4j was not included in those versions at all."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:e4c3eedc-4978-470c-ad02-6ffff63738ff/1#product-JKL",
+          "versions": [
+            {
+              "range": "vers:generic/>=1.0|<=4.4",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CVE-2021-45105",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45105"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "NVD",
+            "url": "https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1"
+          },
+          "score": 0.0,
+          "severity": "none",
+          "method": "CVSSv31",
+          "vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:X/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N"
+        }
+      ],
+      "analysis": {
+        "state": "resolved",
+        "detail": "This version of Product JKL has been fixed."
+      },
+      "affects": [
+        {
+          "ref": "urn:cdx:e4c3eedc-4978-470c-ad02-6ffff63738ff/1#product-JKL",
+          "versions": [
+            {
+              "version": "5.2"
             }
           ]
         }

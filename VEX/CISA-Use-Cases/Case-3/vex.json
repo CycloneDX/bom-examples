@@ -59,8 +59,8 @@
         ],
         "analysis": {
           "state": "not_affected",
-          "justification": "code_not_reachable",
-          "detail": "This version of Product GHI is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+          "justification": "code_not_present",
+          "detail": "IPv6 is not supported and code is not present."
         },
         "affects": [
           {
@@ -116,8 +116,8 @@
         ],
         "analysis": {
           "state": "not_affected",
-          "justification": "code_not_reachable",
-          "detail": "This version of Product GHI is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+          "justification": "code_not_present",
+          "detail": "IPv6 is not supported and code is not present."
         },
         "affects": [
           {
@@ -199,8 +199,8 @@
         ],
         "analysis": {
           "state": "not_affected",
-          "justification": "code_not_reachable",
-          "detail": "This version of Product GHI is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+          "justification": "code_not_present",
+          "detail": "IPv6 is not supported and code is not present."
         },
         "affects": [
           {
@@ -282,8 +282,8 @@
         ],
         "analysis": {
           "state": "not_affected",
-          "justification": "code_not_reachable",
-          "detail": "This version of Product GHI is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+          "justification": "code_not_present",
+          "detail": "IPv6 is not supported and code is not present."
         },
         "affects": [
           {
@@ -311,8 +311,8 @@
         ],
         "analysis": {
           "state": "not_affected",
-          "justification": "code_not_reachable",
-          "detail": "This version of Product GHI is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+          "justification": "code_not_present",
+          "detail": "This code was re-written. The vulnerable code is not present."
         },
         "affects": [
           {
@@ -506,8 +506,8 @@
         ],
         "analysis": {
           "state": "not_affected",
-          "justification": "code_not_reachable",
-          "detail": "This version of Product GHI is not affected by the vulnerability. Linux TCP/IP used and therefore not vulnerable."
+          "justification": "code_not_present",
+          "detail": "IPv6 is not supported and code is not present."
         },
         "affects": [
           {

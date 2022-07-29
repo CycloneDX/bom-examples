@@ -47,7 +47,7 @@
               "status": "affected"
             },
             {
-              "range": "vers:semver/>=2.9|<=4.1",
+              "range": "vers:generic/>=2.9|<=4.1",
               "status": "affected"
             }
           ]

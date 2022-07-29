@@ -47,7 +47,7 @@
               "status": "affected"
             },
             {
-              "range": "vers:semver/>=2.9|<=4.1",
+              "range": "vers:generic/>=2.9|<=4.1",
               "status": "affected"
             }
           ]
@@ -73,14 +73,17 @@
         }
       ],
       "analysis": {
-        "state": "not_affected"
+        "state": "not_affected",
+        "justification": "code_not_present",
+        "response": ["will_not_fix"],
+        "detail": "These versions of Product ABC are not affected by the vulnerability. Class with vulnerable code was removed before shipping."
       },
       "affects": [
         {
           "ref": "product-ABC",
           "versions": [
             {
-              "range": "vers:semver/>=1.0|<=2.3",
+              "range": "vers:generic/>=1.0|<=2.3",
               "status": "unaffected"
             },
             {
@@ -88,7 +91,7 @@
               "status": "unaffected"
             },
             {
-              "range": "vers:semver/>=2.7|<=2.8",
+              "range": "vers:generic/>=2.7|<=2.8",
               "status": "unaffected"
             },
             {

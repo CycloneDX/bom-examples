@@ -1,4 +1,4 @@
-# Manufacturing Bill of Materials (MBOM)
+# Hardware Bill of Materials (HBOM)
 
 CycloneDX supports many types of components, including hardware devices, making it ideal for use with consumer electronics,
 IoT, ICS, and other types of embedded devices. CycloneDX fills an important role in-between traditional eBOM and mBOM

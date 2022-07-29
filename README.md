@@ -13,11 +13,11 @@ are categorized by different BOM types including:
 
 | BOM Type           | Description                             |
 | ------------------ | --------------------------------------- |
-| [MBOM](MBOM)       | Manufacturing Bill of Materials         |
+| [HBOM](HBOM)       | Hardware Bill of Materials         |
 | [OBOM](OBOM)       | Operations Bill of Materials            |
 | [SaaSBOM](SaaSBOM) | Software-as-a-Service Bill of Materials |
 | [SBOM](SBOM)       | Software Bill of Materials              |
-| [VEX](VEX)         | Vulnerability Exploitability Exchange   |
+| [VEX](VEX)         | Vulnerability Exploitability eXchange   |
 
 When possible, the BOMs conform to the latest version of the CycloneDX specification.
 

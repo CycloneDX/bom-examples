@@ -83,7 +83,7 @@
       "analysis": {
         "state": "not_affected",
         "justification": "code_not_reachable",
-        "response": ["will_not_fix", "update"],
+        "response": "will_not_fix",
         "detail": "Automated dataflow analysis and manual code review indicates that the vulnerable code is not reachable, either directly or indirectly."
       },
       "affects": [

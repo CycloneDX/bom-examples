@@ -13,6 +13,7 @@ are categorized by different BOM types including:
 
 | BOM Type           | Description                             |
 |--------------------|-----------------------------------------|
+| [CBOM](CBOM)       | Cryptography Bill of Materials          |
 | [HBOM](HBOM)       | Hardware Bill of Materials              |
 | [OBOM](OBOM)       | Operations Bill of Materials            |
 | [SaaSBOM](SaaSBOM) | Software-as-a-Service Bill of Materials |

@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.3" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" version="1">
   <metadata>
     <tools>
       <tool>
         <vendor><![CDATA[cyclonedx]]></vendor>
         <name><![CDATA[cyclonedx-php-composer]]></name>
         <version><![CDATA[in-dev]]></version>
+        <externalReferences>
+          <reference type="distribution">
+            <url><![CDATA[../..]]></url>
+          </reference>
+          <reference type="website">
+            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer/#readme]]></url>
+            <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+          </reference>
+          <reference type="issue-tracker">
+            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer/issues]]></url>
+            <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+          </reference>
+          <reference type="vcs">
+            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer/]]></url>
+            <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+          </reference>
+        </externalReferences>
       </tool>
     </tools>
     <component type="application" bom-ref="cyclonedx/cyclonedx-php-composer-demo-dev-master">

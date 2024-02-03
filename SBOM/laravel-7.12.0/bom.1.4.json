@@ -1,14 +1,35 @@
 {
-    "$schema": "http://cyclonedx.org/schema/bom-1.3a.schema.json",
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
     "bomFormat": "CycloneDX",
-    "specVersion": "1.3",
+    "specVersion": "1.4",
     "version": 1,
     "metadata": {
         "tools": [
             {
                 "vendor": "cyclonedx",
                 "name": "cyclonedx-php-composer",
-                "version": "in-dev"
+                "version": "in-dev",
+                "externalReferences": [
+                    {
+                        "type": "distribution",
+                        "url": "../.."
+                    },
+                    {
+                        "type": "website",
+                        "url": "https://github.com/CycloneDX/cyclonedx-php-composer/#readme",
+                        "comment": "as detected from Composer manifest 'homepage'"
+                    },
+                    {
+                        "type": "issue-tracker",
+                        "url": "https://github.com/CycloneDX/cyclonedx-php-composer/issues",
+                        "comment": "as detected from Composer manifest 'support.issues'"
+                    },
+                    {
+                        "type": "vcs",
+                        "url": "https://github.com/CycloneDX/cyclonedx-php-composer/",
+                        "comment": "as detected from Composer manifest 'support.source'"
+                    }
+                ]
             }
         ],
         "component": {

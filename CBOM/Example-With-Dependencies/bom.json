@@ -54,6 +54,12 @@
       "ref": "crypto-library",
       "provides": ["aes128gcm"],
       "dependsOn": ["some-library"]
+    },
+    {
+      "ref": "some-library"
+    },
+    {
+      "ref": "aes128gcm"
     }
   ]
 }

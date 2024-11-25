@@ -1,0 +1,26 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.6",
+    "serialNumber": "urn:uuid:56315ffe-c0af-4474-9c11-c94d1af986a9",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2024-11-24T13:05:42Z",
+        "manufacturer": {
+            "name": "Noma Security Inc."
+        }
+    },
+    "components": [
+        {
+            "type": "machine-learning-model",
+            "supplier": {
+                "name": "OpenAI Inc"
+            },
+            "manufacturer": {
+                "name": "OpenAI Inc"
+            },
+            "publisher": "OpenAI Inc",
+            "name": "gpt-4o"
+        }
+    ]
+}

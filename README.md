@@ -15,12 +15,12 @@ are categorized by different BOM types including:
 |--------------------|-----------------------------------------|
 | [CBOM](CBOM)       | Cryptography Bill of Materials          |
 | [HBOM](HBOM)       | Hardware Bill of Materials              |
+| [MLBOM](MLBOM)     | Machine Learning Bill of Materials      |
 | [OBOM](OBOM)       | Operations Bill of Materials            |
 | [SaaSBOM](SaaSBOM) | Software-as-a-Service Bill of Materials |
 | [SBOM](SBOM)       | Software Bill of Materials              |
 | [VDR](VDR)         | Vulnerability Disclosure Report         |
 | [VEX](VEX)         | Vulnerability Exploitability eXchange   |
-| [MLBOM](MLBOM)     | Machine Learning Bill of Materials      |
 
 When possible, the BOMs conform to the latest version of the CycloneDX specification.
 

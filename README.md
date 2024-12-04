@@ -20,6 +20,7 @@ are categorized by different BOM types including:
 | [SBOM](SBOM)       | Software Bill of Materials              |
 | [VDR](VDR)         | Vulnerability Disclosure Report         |
 | [VEX](VEX)         | Vulnerability Exploitability eXchange   |
+| [MLBOM](MLBOM)     | Machine Learning Bill of Materials      |
 
 When possible, the BOMs conform to the latest version of the CycloneDX specification.
 

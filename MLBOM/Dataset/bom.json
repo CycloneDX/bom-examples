@@ -19,6 +19,15 @@
             "publisher": "Hugging Face Inc",
             "name": "wikipedia",
             "version": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+            "data": [
+                {
+                    "type": "dataset",
+                    "name": "wikipedia",
+                    "contents": {
+                        "url": "https://huggingface.co/datasets/wikimedia/wikipedia",
+                    }
+                }
+            ],
             "licenses": [
                 {
                     "license": {
@@ -47,21 +56,63 @@
                     "content": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa"
                 }
             ],
-            "tags": [
-                "task_categories:text-generation",
-                "task_categories:fill-mask",
-                "task_ids:language-modeling",
-                "task_ids:masked-language-modeling",
-                "language:en",
-                "language:es",
-                "size_categories:10M<n<100M",
-                "format:parquet",
-                "modality:text",
-                "library:datasets",
-                "library:dask",
-                "library:mlcroissant",
-                "library:polars",
-                "region:us"
+            "properties": [
+                {
+                    "name": "task_categories",
+                    "value": "text-generation"
+                },
+                {
+                    "name": "task_categories",
+                    "value": "fill-mask"
+                },
+                {
+                    "name": "task_ids",
+                    "value": "language-modeling"
+                },
+                {
+                    "name": "task_ids",
+                    "value": "masked-language-modeling"
+                },
+                {
+                    "name": "language",
+                    "value": "en"
+                },
+                {
+                    "name": "language",
+                    "value": "es"
+                },
+                {
+                    "name": "size_categories",
+                    "value": "10M<n<100M"
+                },
+                {
+                    "name": "format",
+                    "value": "parquet"
+                },
+                {
+                    "name": "modality",
+                    "value": "text"
+                },
+                {
+                    "name": "library",
+                    "value": "datasets"
+                },
+                {
+                    "name": "library",
+                    "value": "dask"
+                },
+                {
+                    "name": "library",
+                    "value": "mlcroissant"
+                },
+                {
+                    "name": "library",
+                    "value": "polars"
+                },
+                {
+                    "name": "region",
+                    "value": "us"
+                }
             ]
         }
     ]

@@ -40,6 +40,34 @@
                     "content": "cd5ef92a9fb2f889e972770a36d4ed042daf221e"
                 }
             ],
+            "modelCard": {
+                "modelParameters": {
+                    "datasets": [
+                        {
+                            "type": "dataset",
+                            "name": "legacy-datasets/wikipedia",
+                            "contents": {
+                                "url": "https://huggingface.co/datasets/legacy-datasets/wikipedia"
+                            },
+                            "description": "Wikipedia dataset containing cleaned articles of all languages."
+                        },
+                        {
+                            "type": "dataset",
+                            "name": "bookcorpus/bookcorpus",
+                            "contents": {
+                                "url": "https://huggingface.co/datasets/bookcorpus/bookcorpus"
+                            },
+                            "description": "A corpus of fine-grained information and high-level semantics text"
+                        }
+                    ]
+                }
+            },
+            "properties": [
+                {
+                    "name": "region",
+                    "value": "us"
+                }
+            ],
             "tags": [
                 "transformers",
                 "pytorch",
@@ -50,13 +78,9 @@
                 "fill-mask",
                 "exbert",
                 "en",
-                "dataset:bookcorpus",
-                "dataset:wikipedia",
                 "arxiv:1810.04805",
-                "license:apache-2.0",
                 "autotrain_compatible",
-                "endpoints_compatible",
-                "region:us"
+                "endpoints_compatible"
             ]
         }
     ]

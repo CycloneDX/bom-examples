@@ -20,7 +20,28 @@
                 "name": "OpenAI Inc"
             },
             "publisher": "OpenAI Inc",
-            "name": "gpt-4o"
+            "name": "gpt-4o",
+            "modelCard": {
+                "modelParameters": {
+                    "modelArchitecture": "GPT-4",
+                    "inputs": [
+                        {
+                            "format": "string"
+                        },
+                        {
+                            "format": "image"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "format": "string"
+                        },
+                        {
+                            "format": "image"
+                        }
+                    ]
+                }
+            }
         }
     ]
 }

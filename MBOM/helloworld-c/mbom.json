@@ -1,0 +1,83 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+  "version": 1,
+  "components": [
+    {
+      "type": "application",
+      "bom-ref": "helloworld",
+      "name": "Hello World",
+      "externalReferences": [
+        {
+          "type": "formulation",
+          "url": "urn:cdx:3e671687-395b-41f5-a30f-a58921a69b79/1#formula-1"
+        }
+      ]
+    }
+  ],
+  "formulation": [
+    {
+      "bom-ref": "formula-1",
+      "components": [
+        {
+          "bom-ref": "file:///CycloneDX/MBOM-examples/simple-application-makefile/helloworld.c",
+          "type": "file",
+          "name": "helloworld.c",
+          "version": "1.0",
+          "mime-type": "text/x-csrc"
+        },
+        {
+          "bom-ref": "file:///CycloneDX/MBOM-examples/simple-application-makefile/Makefile",
+          "type": "file",
+          "name": "Makefile",
+          "version": "1.0"
+        },
+        {
+          "bom-ref": "file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/gcc",
+          "type": "application",
+          "name": "gcc",
+          "version": "16.0.0 (clang-1600.0.26.4)"
+        },
+        {
+          "bom-ref": "file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/make",
+          "type": "application",
+          "name": "GNU Make",
+          "version": "3.81"
+        }
+      ],
+      "workflows": [
+        {
+          "bom-ref": "workflow-1",
+          "uid": "uuid:8a2c3bf8-77fe-4c1d-849b-c534abc73aee",
+          "taskTypes": [ "clean", "build" ],
+          "tasks": [
+            {
+              "bom-ref": "task-1",
+              "uid": "uuid:dbb6c5c0-6958-4a18-ac67-d897dbee76b6",
+              "taskTypes": ["clean", "build"],
+              "name": "make build task",
+              "description": "A task that captures 'make build' step.",
+              "steps": [
+                {
+                  "name": "run make build",
+                  "commands": [
+                    {
+                      "executed": "make build"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "trigger": {
+            "bom-ref": "trigger-1",
+            "uid": "uuid:c77a73f0-cc1b-40ac-9ee8-e68dbe6e9583",
+            "type": "manual"
+          }
+        }
+      ]
+    }
+  ]
+}

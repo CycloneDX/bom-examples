@@ -94,8 +94,6 @@
       "cryptoProperties": {
         "assetType": "algorithm",
         "algorithmProperties": {
-          "algorithmFamily": "ECDH",
-          "ellipticCurve": "other/Curve25519",
           "primitive": "combiner",
           "executionEnvironment": "software-plain-ram",
           "implementationPlatform": "x86_64",

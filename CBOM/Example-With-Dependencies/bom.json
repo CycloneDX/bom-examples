@@ -1,6 +1,6 @@
 {
   "bomFormat": "CycloneDX",
-  "specVersion": "1.6",
+  "specVersion": "1.7",
   "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
   "version": 1,
   "metadata": {
@@ -15,12 +15,12 @@
     {
       "type": "cryptographic-asset",
       "bom-ref": "aes128gcm",
-      "name": "AES",
+      "name": "AES-128-GCM-128-12",
       "cryptoProperties": {
         "assetType": "algorithm",
         "algorithmProperties": {
           "primitive": "ae",
-          "parameterSetIdentifier": "128",
+          "algorithmFamily": "AES",
           "executionEnvironment": "software-plain-ram",
           "implementationPlatform": "x86_64",
           "certificationLevel": [ "none" ],

@@ -1,0 +1,87 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.6",
+    "serialNumber": "urn:uuid:21d0b6f8-f5b0-44df-8587-79c5d70cd1da",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2024-11-24T13:10:49Z",
+    },
+    "components": [
+        {
+            "type": "machine-learning-model",
+            "supplier": {
+                "name": "google-bert"
+            },
+            "manufacturer": {
+                "name": "google-bert"
+            },
+            "publisher": "Hugging Face Inc",
+            "name": "bert-base-cased",
+            "version": "cd5ef92a9fb2f889e972770a36d4ed042daf221e",
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0",
+                        "name": "Apache License 2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "externalReferences": [
+                {
+                    "type": "website",
+                    "url": "https://huggingface.co/google-bert/bert-base-cased"
+                }
+            ],
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "cd5ef92a9fb2f889e972770a36d4ed042daf221e"
+                }
+            ],
+            "modelCard": {
+                "modelParameters": {
+                    "datasets": [
+                        {
+                            "type": "dataset",
+                            "name": "legacy-datasets/wikipedia",
+                            "contents": {
+                                "url": "https://huggingface.co/datasets/legacy-datasets/wikipedia"
+                            },
+                            "description": "Wikipedia dataset containing cleaned articles of all languages."
+                        },
+                        {
+                            "type": "dataset",
+                            "name": "bookcorpus/bookcorpus",
+                            "contents": {
+                                "url": "https://huggingface.co/datasets/bookcorpus/bookcorpus"
+                            },
+                            "description": "A corpus of fine-grained information and high-level semantics text"
+                        }
+                    ]
+                }
+            },
+            "properties": [
+                {
+                    "name": "region",
+                    "value": "us"
+                }
+            ],
+            "tags": [
+                "transformers",
+                "pytorch",
+                "tf",
+                "jax",
+                "safetensors",
+                "bert",
+                "fill-mask",
+                "exbert",
+                "en",
+                "arxiv:1810.04805",
+                "autotrain_compatible",
+                "endpoints_compatible"
+            ]
+        }
+    ]
+}

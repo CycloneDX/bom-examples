@@ -1,0 +1,152 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:df4f6ec7-6d36-47e6-a15b-640a0af54267",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-04-28T12:00:00Z",
+    "component": {
+      "type": "application",
+      "bom-ref": "component-support-triage-service",
+      "name": "support-triage-service",
+      "version": "1.0.0",
+      "description": "Fictional application that uses a text classification model to route support tickets."
+    }
+  },
+  "components": [
+    {
+      "type": "machine-learning-model",
+      "bom-ref": "component-support-ticket-classifier",
+      "publisher": "Example ML Team",
+      "name": "support-ticket-classifier",
+      "version": "1.0.0",
+      "description": "Fictional supervised text classification model for support ticket routing.",
+      "modelCard": {
+        "bom-ref": "model-card-support-ticket-classifier",
+        "modelParameters": {
+          "approach": {
+            "type": "supervised"
+          },
+          "task": "text-classification",
+          "architectureFamily": "transformer",
+          "modelArchitecture": "encoder-only transformer",
+          "datasets": [
+            {
+              "ref": "component-support-ticket-training-data"
+            },
+            {
+              "ref": "component-support-ticket-evaluation-data"
+            }
+          ],
+          "inputs": [
+            {
+              "format": "text/plain"
+            }
+          ],
+          "outputs": [
+            {
+              "format": "application/json"
+            }
+          ]
+        },
+        "quantitativeAnalysis": {
+          "performanceMetrics": [
+            {
+              "type": "macro-f1",
+              "value": "0.91",
+              "slice": "held-out-evaluation"
+            }
+          ]
+        },
+        "considerations": {
+          "users": [
+            "Support operations staff reviewing suggested ticket queues."
+          ],
+          "useCases": [
+            "Suggest an initial support queue for a newly received support ticket."
+          ],
+          "technicalLimitations": [
+            "The example model is illustrative and should not be used to infer production readiness."
+          ],
+          "performanceTradeoffs": [
+            "The illustrative metric is included only to demonstrate the CycloneDX modelCard structure."
+          ],
+          "ethicalConsiderations": [
+            {
+              "name": "automation bias",
+              "mitigationStrategy": "Human review remains responsible for final ticket routing."
+            }
+          ],
+          "fairnessAssessments": [
+            {
+              "groupAtRisk": "Customers using underrepresented languages or dialects",
+              "benefits": "Faster initial triage when the model is reliable for the submitted language.",
+              "harms": "Misrouting can delay support if the model performs poorly for the submitted language.",
+              "mitigationStrategy": "Monitor routing quality across language slices and allow manual override."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "data",
+      "bom-ref": "component-support-ticket-training-data",
+      "name": "support-ticket-training-data",
+      "version": "2026.04",
+      "description": "Fictional dataset component used to train the support ticket classifier.",
+      "data": [
+        {
+          "bom-ref": "data-support-ticket-training-data",
+          "type": "dataset",
+          "name": "Support Ticket Training Data",
+          "contents": {
+            "url": "https://example.com/datasets/support-tickets/train.jsonl"
+          },
+          "classification": "internal",
+          "description": "Illustrative training split for the fictional support ticket classifier."
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "component-support-ticket-evaluation-data",
+      "name": "support-ticket-evaluation-data",
+      "version": "2026.04",
+      "description": "Fictional held-out dataset component used to evaluate the support ticket classifier.",
+      "data": [
+        {
+          "bom-ref": "data-support-ticket-evaluation-data",
+          "type": "dataset",
+          "name": "Support Ticket Evaluation Data",
+          "contents": {
+            "url": "https://example.com/datasets/support-tickets/eval.jsonl"
+          },
+          "classification": "internal",
+          "description": "Illustrative evaluation split for the fictional support ticket classifier."
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "component-support-triage-service",
+      "dependsOn": [
+        "component-support-ticket-classifier"
+      ]
+    },
+    {
+      "ref": "component-support-ticket-classifier",
+      "dependsOn": [
+        "component-support-ticket-training-data",
+        "component-support-ticket-evaluation-data"
+      ]
+    },
+    {
+      "ref": "component-support-ticket-training-data"
+    },
+    {
+      "ref": "component-support-ticket-evaluation-data"
+    }
+  ]
+}

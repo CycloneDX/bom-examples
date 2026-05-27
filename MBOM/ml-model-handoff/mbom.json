@@ -1,0 +1,346 @@
+{
+  "$schema": "https://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:2f4c80e1-7e8f-4df7-bdb7-91de6b04c8cf",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-04-28T12:00:00Z",
+    "component": {
+      "type": "application",
+      "bom-ref": "component-support-triage-service",
+      "name": "support-triage-service",
+      "version": "1.0.0",
+      "description": "Fictional application that uses a text classification model to route support tickets."
+    }
+  },
+  "components": [
+    {
+      "type": "machine-learning-model",
+      "bom-ref": "component-support-ticket-classifier",
+      "publisher": "Example ML Team",
+      "name": "support-ticket-classifier",
+      "version": "1.0.0",
+      "purl": "pkg:huggingface/example/support-ticket-classifier@1.0.0",
+      "description": "Fictional supervised text classification model for support ticket routing.",
+      "externalReferences": [
+        {
+          "type": "formulation",
+          "url": "urn:cdx:2f4c80e1-7e8f-4df7-bdb7-91de6b04c8cf/1#formula-support-ticket-classifier-handoff"
+        },
+        {
+          "type": "evidence",
+          "url": "https://example.com/evidence/support-ticket-classifier/handoff.json"
+        }
+      ],
+      "modelCard": {
+        "bom-ref": "model-card-support-ticket-classifier",
+        "modelParameters": {
+          "approach": {
+            "type": "supervised"
+          },
+          "task": "text-classification",
+          "architectureFamily": "transformer",
+          "modelArchitecture": "encoder-only transformer",
+          "datasets": [
+            {
+              "ref": "component-support-ticket-training-data"
+            },
+            {
+              "ref": "component-support-ticket-evaluation-data"
+            }
+          ],
+          "inputs": [
+            {
+              "format": "text/plain"
+            }
+          ],
+          "outputs": [
+            {
+              "format": "application/json"
+            }
+          ]
+        },
+        "quantitativeAnalysis": {
+          "performanceMetrics": [
+            {
+              "type": "macro-f1",
+              "value": "0.91",
+              "slice": "held-out-evaluation"
+            }
+          ]
+        },
+        "considerations": {
+          "users": [
+            "Support operations staff reviewing suggested ticket queues."
+          ],
+          "useCases": [
+            "Suggest an initial support queue for a newly received support ticket."
+          ],
+          "technicalLimitations": [
+            "The model, metric, and dataset values in this example are illustrative."
+          ],
+          "performanceTradeoffs": [
+            "The illustrative metric demonstrates the CycloneDX modelCard structure only."
+          ],
+          "ethicalConsiderations": [
+            {
+              "name": "automation bias",
+              "mitigationStrategy": "Human review remains responsible for final ticket routing."
+            }
+          ],
+          "fairnessAssessments": [
+            {
+              "groupAtRisk": "Customers using underrepresented languages or dialects",
+              "benefits": "Faster initial triage when the model is reliable for the submitted language.",
+              "harms": "Misrouting can delay support if the model performs poorly for the submitted language.",
+              "mitigationStrategy": "Monitor routing quality across language slices and allow manual override."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "data",
+      "bom-ref": "component-support-ticket-training-data",
+      "name": "support-ticket-training-data",
+      "version": "2026.04",
+      "description": "Fictional dataset component used to train the support ticket classifier.",
+      "data": [
+        {
+          "bom-ref": "data-support-ticket-training-data",
+          "type": "dataset",
+          "name": "Support Ticket Training Data",
+          "contents": {
+            "url": "https://example.com/datasets/support-tickets/train.jsonl"
+          },
+          "classification": "internal",
+          "description": "Illustrative training split for the fictional support ticket classifier."
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "component-support-ticket-evaluation-data",
+      "name": "support-ticket-evaluation-data",
+      "version": "2026.04",
+      "description": "Fictional held-out dataset component used to evaluate the support ticket classifier.",
+      "data": [
+        {
+          "bom-ref": "data-support-ticket-evaluation-data",
+          "type": "dataset",
+          "name": "Support Ticket Evaluation Data",
+          "contents": {
+            "url": "https://example.com/datasets/support-tickets/eval.jsonl"
+          },
+          "classification": "internal",
+          "description": "Illustrative evaluation split for the fictional support ticket classifier."
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "component-support-triage-service",
+      "dependsOn": [
+        "component-support-ticket-classifier"
+      ]
+    },
+    {
+      "ref": "component-support-ticket-classifier",
+      "dependsOn": [
+        "component-support-ticket-training-data",
+        "component-support-ticket-evaluation-data"
+      ]
+    },
+    {
+      "ref": "component-support-ticket-training-data"
+    },
+    {
+      "ref": "component-support-ticket-evaluation-data"
+    }
+  ],
+  "formulation": [
+    {
+      "bom-ref": "formula-support-ticket-classifier-handoff",
+      "workflows": [
+        {
+          "bom-ref": "workflow-support-ticket-classifier-handoff",
+          "uid": "uuid:68b412bb-b470-4780-a38f-1a165661e78f",
+          "name": "support-ticket-classifier handoff workflow",
+          "description": "Illustrative workflow showing model training, evaluation, and evidence handoff.",
+          "taskTypes": [
+            "build",
+            "test",
+            "release"
+          ],
+          "tasks": [
+            {
+              "bom-ref": "task-collect-model-inputs",
+              "uid": "uuid:0c5a64cf-df78-4ac1-a186-6dc28ce90130",
+              "name": "collect model inputs",
+              "description": "Collect the training and evaluation datasets used by the workflow.",
+              "taskTypes": [
+                "copy"
+              ],
+              "inputs": [
+                {
+                  "resource": {
+                    "ref": "component-support-ticket-training-data"
+                  }
+                },
+                {
+                  "resource": {
+                    "ref": "component-support-ticket-evaluation-data"
+                  }
+                }
+              ]
+            },
+            {
+              "bom-ref": "task-train-model",
+              "uid": "uuid:b460d123-adad-42b9-94fd-d741be9e813b",
+              "name": "train model",
+              "description": "Train the model from the collected training dataset.",
+              "taskTypes": [
+                "build"
+              ],
+              "inputs": [
+                {
+                  "resource": {
+                    "ref": "component-support-ticket-training-data"
+                  }
+                }
+              ],
+              "outputs": [
+                {
+                  "type": "artifact",
+                  "resource": {
+                    "ref": "component-support-ticket-classifier"
+                  }
+                }
+              ],
+              "steps": [
+                {
+                  "name": "run training job",
+                  "commands": [
+                    {
+                      "executed": "python train.py --dataset support-ticket-training-data --out model/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "bom-ref": "task-evaluate-model",
+              "uid": "uuid:cf06d47f-d414-4f25-bbfb-55e8b377fc90",
+              "name": "evaluate model",
+              "description": "Evaluate the trained model against the held-out dataset.",
+              "taskTypes": [
+                "test"
+              ],
+              "inputs": [
+                {
+                  "resource": {
+                    "ref": "component-support-ticket-classifier"
+                  }
+                },
+                {
+                  "resource": {
+                    "ref": "component-support-ticket-evaluation-data"
+                  }
+                }
+              ],
+              "outputs": [
+                {
+                  "type": "metrics",
+                  "resource": {
+                    "externalReference": {
+                      "type": "quality-metrics",
+                      "url": "https://example.com/evidence/support-ticket-classifier/metrics.json"
+                    }
+                  }
+                }
+              ],
+              "steps": [
+                {
+                  "name": "run evaluation job",
+                  "commands": [
+                    {
+                      "executed": "python evaluate.py --model model/ --dataset support-ticket-evaluation-data"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "bom-ref": "task-produce-handoff-evidence",
+              "uid": "uuid:ea9191a2-e94f-42b8-a950-4ba55a18b1eb",
+              "name": "produce handoff evidence",
+              "description": "Publish a bounded evidence artifact that links reviewers back to the model BOM.",
+              "taskTypes": [
+                "release"
+              ],
+              "inputs": [
+                {
+                  "resource": {
+                    "ref": "component-support-ticket-classifier"
+                  }
+                }
+              ],
+              "outputs": [
+                {
+                  "type": "evidence",
+                  "resource": {
+                    "externalReference": {
+                      "type": "evidence",
+                      "url": "https://example.com/evidence/support-ticket-classifier/handoff.json"
+                    }
+                  }
+                }
+              ],
+              "steps": [
+                {
+                  "name": "write handoff evidence",
+                  "commands": [
+                    {
+                      "executed": "python produce_handoff_evidence.py --bom mbom.json --model-ref component-support-ticket-classifier --out handoff.json"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "taskDependencies": [
+            {
+              "ref": "task-train-model",
+              "dependsOn": [
+                "task-collect-model-inputs"
+              ]
+            },
+            {
+              "ref": "task-evaluate-model",
+              "dependsOn": [
+                "task-train-model"
+              ]
+            },
+            {
+              "ref": "task-produce-handoff-evidence",
+              "dependsOn": [
+                "task-evaluate-model"
+              ]
+            },
+            {
+              "ref": "task-collect-model-inputs"
+            }
+          ],
+          "trigger": {
+            "bom-ref": "trigger-support-ticket-classifier-handoff",
+            "uid": "uuid:e4b12e97-410a-4dd1-8b27-6757ad677b4e",
+            "type": "manual",
+            "name": "manual model handoff"
+          }
+        }
+      ]
+    }
+  ]
+}

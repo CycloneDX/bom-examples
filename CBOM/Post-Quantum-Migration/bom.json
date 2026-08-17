@@ -1,0 +1,155 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:57d81338-2f4c-5b91-9f46-d92b1efb1328",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-08-17T00:00:00Z",
+    "component": {
+      "type": "application",
+      "bom-ref": "application:pqc-migration-example@1.0.0",
+      "name": "PQC Migration Example",
+      "version": "1.0.0",
+      "description": "An illustrative application in a transition state where classical and post-quantum cryptographic algorithms coexist."
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "library:python-oqs-binding",
+      "name": "Python OQS binding",
+      "description": "Illustrative implementation boundary for the algorithms used by the source fixture."
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "algorithm:ml-kem-768",
+      "name": "ML-KEM-768",
+      "cryptoProperties": {
+        "assetType": "algorithm",
+        "algorithmProperties": {
+          "algorithmFamily": "ML-KEM",
+          "primitive": "kem",
+          "parameterSetIdentifier": "ML-KEM-768",
+          "executionEnvironment": "software-plain-ram",
+          "implementationPlatform": "x86_64",
+          "certificationLevel": [
+            "none"
+          ],
+          "cryptoFunctions": [
+            "keygen",
+            "keyderive"
+          ],
+          "nistQuantumSecurityLevel": 3
+        },
+        "oid": "2.16.840.1.101.3.4.4.2"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "algorithm:ml-dsa-65",
+      "name": "ML-DSA-65",
+      "cryptoProperties": {
+        "assetType": "algorithm",
+        "algorithmProperties": {
+          "algorithmFamily": "ML-DSA",
+          "primitive": "signature",
+          "parameterSetIdentifier": "ML-DSA-65",
+          "executionEnvironment": "software-plain-ram",
+          "implementationPlatform": "x86_64",
+          "certificationLevel": [
+            "none"
+          ],
+          "cryptoFunctions": [
+            "keygen",
+            "sign",
+            "verify"
+          ],
+          "nistQuantumSecurityLevel": 3
+        },
+        "oid": "2.16.840.1.101.3.4.3.18"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "algorithm:ecdh-p-256",
+      "name": "ECDH-P-256",
+      "cryptoProperties": {
+        "assetType": "algorithm",
+        "algorithmProperties": {
+          "algorithmFamily": "ECDH",
+          "primitive": "key-agree",
+          "parameterSetIdentifier": "P-256",
+          "ellipticCurve": "nist/P-256",
+          "executionEnvironment": "software-plain-ram",
+          "implementationPlatform": "x86_64",
+          "certificationLevel": [
+            "none"
+          ],
+          "cryptoFunctions": [
+            "keygen",
+            "keyderive"
+          ],
+          "classicalSecurityLevel": 128,
+          "nistQuantumSecurityLevel": 0
+        },
+        "oid": "1.2.840.10045.3.1.7"
+      }
+    },
+    {
+      "type": "cryptographic-asset",
+      "bom-ref": "algorithm:ecdsa-p-256-sha-256",
+      "name": "ECDSA-P-256-SHA-256",
+      "cryptoProperties": {
+        "assetType": "algorithm",
+        "algorithmProperties": {
+          "algorithmFamily": "ECDSA",
+          "primitive": "signature",
+          "parameterSetIdentifier": "P-256/SHA-256",
+          "ellipticCurve": "nist/P-256",
+          "executionEnvironment": "software-plain-ram",
+          "implementationPlatform": "x86_64",
+          "certificationLevel": [
+            "none"
+          ],
+          "cryptoFunctions": [
+            "keygen",
+            "sign",
+            "verify"
+          ],
+          "classicalSecurityLevel": 128,
+          "nistQuantumSecurityLevel": 0
+        },
+        "oid": "1.2.840.10045.4.3.2"
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "application:pqc-migration-example@1.0.0",
+      "dependsOn": [
+        "library:python-oqs-binding"
+      ]
+    },
+    {
+      "ref": "library:python-oqs-binding",
+      "provides": [
+        "algorithm:ml-kem-768",
+        "algorithm:ml-dsa-65",
+        "algorithm:ecdh-p-256",
+        "algorithm:ecdsa-p-256-sha-256"
+      ]
+    },
+    {
+      "ref": "algorithm:ml-kem-768"
+    },
+    {
+      "ref": "algorithm:ml-dsa-65"
+    },
+    {
+      "ref": "algorithm:ecdh-p-256"
+    },
+    {
+      "ref": "algorithm:ecdsa-p-256-sha-256"
+    }
+  ]
+}
